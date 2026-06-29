@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
-  "tag": "v0.1.1",
-  "notes": "test this a test\n-this is a test \n- i made this test\n!@#$%#$%&%*^&(\n___----||][}{alksdfj~\ntest is it working",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v0.1.1/sccm-retro-update-0.1.1.tar.gz",
-  "sha256": "025ffc9dab280f4588a9747ffb4e918725e7a19a4c9d2f5f225d92f121d0b041",
-  "size": 240052,
-  "publishedAt": "2026-06-19T01:13:55.194Z"
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "notes": "- bt: allow pairing new controllers from Settings (+ accumulated WIP)\n- PS2 save-state/overlay/input fixes + accumulated launcher WIP\n- remap: gate browse input until release; arm capture so A is rebindable\n- kernel: fix DSI panel rotation in hardware (root cause, not a watcher)\n- docs+fix: rotation watcher now handles dock->undock, not just login\n- docs: record on-device handheld autostarts (rotation + Bluetooth power)\n- Add CPU-OC kernel + dynamic OC profiles; controller-remap + RAM-tuner WIP\n- Add per-console WiFi import + RAM OC tuner; switch-nro launcher fixes",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v0.2.0/sccm-retro-update-0.2.0.tar.gz",
+  "sha256": "e66bbc1c55b855ee43b04fdcbf88e8ec6e99ae4b6cbf7934a81ac2c7c26c5702",
+  "size": 307283,
+  "publishedAt": "2026-06-29T14:53:50.626Z"
 }
