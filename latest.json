@@ -1,9 +1,9 @@
 {
-  "version": "2.4.4",
-  "tag": "v2.4.4",
-  "notes": "Many bug and stability fixes.\nYOUR SCREEN WILL GO BLACK WHILE IT INSTALLS. DO NOT POWER OFF!\nYour first update will require a manual relaunch from hekate, future updates will cleanly reboot.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.4.4/sccm-retro-update-2.4.4.tar.gz",
-  "sha256": "ce53516db39202007e78e0eda3f3a075edab184e3244f6afba208a0eb450984b",
-  "size": 598440,
-  "publishedAt": "2026-07-13T22:49:36.766Z"
+  "version": "2.8.0",
+  "tag": "v2.8.0",
+  "notes": "Stats overlay improvements\nRam tuner updates\nQOL features\nFor full information visit the discord",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.8.0/sccm-retro-update-2.8.0.tar.gz",
+  "sha256": "3e91a123b2a5b7aa3fb4111cdc496671f9b0f61f7664afc8c0769766f7361ce0",
+  "size": 18613874,
+  "publishedAt": "2026-07-21T22:54:29.091Z"
 }
