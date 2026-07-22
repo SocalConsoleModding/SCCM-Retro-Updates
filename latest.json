@@ -1,9 +1,9 @@
 {
-  "version": "2.9.0",
-  "tag": "v2.9.0",
-  "notes": "Check discord for notes.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.9.0/sccm-retro-update-2.9.0.tar.gz",
-  "sha256": "678b10f10faab07f02ac7a840d98befa1419cb4629e6c21064cbeb00f9e0a6ef",
-  "size": 18613873,
-  "publishedAt": "2026-07-21T23:21:26.739Z"
+  "version": "2.9.1",
+  "tag": "v2.9.1",
+  "notes": "Repush with fix for Ram OC Tuner and controller fixes not applying.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.9.1/sccm-retro-update-2.9.1.tar.gz",
+  "sha256": "2e99a56ed1344c0fb6d2ce5c4367bddac8c8c08cec9c0e27bb9f3c133cc531dc",
+  "size": 18616474,
+  "publishedAt": "2026-07-22T05:56:35.917Z"
 }
