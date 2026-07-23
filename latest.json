@@ -1,9 +1,9 @@
 {
-  "version": "2.10.1",
-  "tag": "v2.10.1",
-  "notes": "- RAM tuner: sweeps with an upper bound below the current RAM OC now stay inside the chosen band (test-only run); they no longer test frequencies above the bound or change the RAM OC",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.1/sccm-retro-update-2.10.1.tar.gz",
-  "sha256": "19c26b1da42611572af17ea07d1c39c05b390932384e352abba8bec5280fb81a",
-  "size": 22732555,
-  "publishedAt": "2026-07-23T15:24:10.050Z"
+  "version": "2.10.2",
+  "tag": "v2.10.2",
+  "notes": "RAM tuner fix: a bounded test run whose upper bound sits below the current production RAM speed no longer chains into A/B timing tuning at the production speed when Also fine-tune timings is enabled. Test-only runs skip the timing stage entirely; frequency results are still recorded. Follow-up to the 2.10.1 upper-bound fix.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.2/sccm-retro-update-2.10.2.tar.gz",
+  "sha256": "313ff38c238ca696f64946c389b4072c9559fe68cf7534559e2a9049471ec1b3",
+  "size": 22733005,
+  "publishedAt": "2026-07-23T17:12:56.326Z"
 }
