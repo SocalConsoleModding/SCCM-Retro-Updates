@@ -1,9 +1,9 @@
 {
-  "version": "2.9.1",
-  "tag": "v2.9.1",
-  "notes": "Repush with fix for Ram OC Tuner and controller fixes not applying.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.9.1/sccm-retro-update-2.9.1.tar.gz",
-  "sha256": "2e99a56ed1344c0fb6d2ce5c4367bddac8c8c08cec9c0e27bb9f3c133cc531dc",
-  "size": 18616474,
-  "publishedAt": "2026-07-22T05:56:35.917Z"
+  "version": "2.10.0",
+  "tag": "v2.10.0",
+  "notes": "- Launcher: one pause-menu overlay switch, upload diagnostics, tuner result pages\n- Boot splash: ship the new art the right way up; NRO drops cpu_uv\n- Tuner: measured CPU voltage cap, session history, faster sweeps\n- Wii U: Cemu platform support",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.0/sccm-retro-update-2.10.0.tar.gz",
+  "sha256": "d1117b0b99006e56cb284af5f01849a6935f86ff9aa756b3452bbf5386c43f34",
+  "size": 22844689,
+  "publishedAt": "2026-07-23T10:28:42.943Z"
 }
