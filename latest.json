@@ -1,9 +1,9 @@
 {
-  "version": "2.10.0",
-  "tag": "v2.10.0",
-  "notes": "- Launcher: one pause-menu overlay switch, upload diagnostics, tuner result pages\n- Boot splash: ship the new art the right way up; NRO drops cpu_uv\n- Tuner: measured CPU voltage cap, session history, faster sweeps\n- Wii U: Cemu platform support",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.0/sccm-retro-update-2.10.0.tar.gz",
-  "sha256": "d1117b0b99006e56cb284af5f01849a6935f86ff9aa756b3452bbf5386c43f34",
-  "size": 22844689,
-  "publishedAt": "2026-07-23T10:28:42.943Z"
+  "version": "2.10.1",
+  "tag": "v2.10.1",
+  "notes": "- RAM tuner: sweeps with an upper bound below the current RAM OC now stay inside the chosen band (test-only run); they no longer test frequencies above the bound or change the RAM OC",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.1/sccm-retro-update-2.10.1.tar.gz",
+  "sha256": "19c26b1da42611572af17ea07d1c39c05b390932384e352abba8bec5280fb81a",
+  "size": 22732555,
+  "publishedAt": "2026-07-23T15:24:10.050Z"
 }
