@@ -1,9 +1,9 @@
 {
-  "version": "2.10.2",
-  "tag": "v2.10.2",
-  "notes": "RAM tuner fix: a bounded test run whose upper bound sits below the current production RAM speed no longer chains into A/B timing tuning at the production speed when Also fine-tune timings is enabled. Test-only runs skip the timing stage entirely; frequency results are still recorded. Follow-up to the 2.10.1 upper-bound fix.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.2/sccm-retro-update-2.10.2.tar.gz",
-  "sha256": "313ff38c238ca696f64946c389b4072c9559fe68cf7534559e2a9049471ec1b3",
-  "size": 22733005,
-  "publishedAt": "2026-07-23T17:12:56.326Z"
+  "version": "2.10.3",
+  "tag": "v2.10.3",
+  "notes": "RAM tuner: a bounded test run with Also fine-tune timings enabled now runs the timing (A/B) stage AT the tested frequency instead of skipping it. When the band sits below your current production RAM speed the timing stage is test-only, matching the frequency sweep: results are recorded, nothing is applied, production is untouched. A manual timing tune locked below production behaves the same way and can no longer lower your production settings.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.3/sccm-retro-update-2.10.3.tar.gz",
+  "sha256": "4e425b22b910c3450fda4f98b8b9b89672165a5371a3e6bce2c9df35427a5d5c",
+  "size": 22733441,
+  "publishedAt": "2026-07-23T17:26:31.741Z"
 }
