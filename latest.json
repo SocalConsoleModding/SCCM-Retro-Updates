@@ -1,9 +1,9 @@
 {
-  "version": "2.10.3",
-  "tag": "v2.10.3",
-  "notes": "RAM tuner: a bounded test run with Also fine-tune timings enabled now runs the timing (A/B) stage AT the tested frequency instead of skipping it. When the band sits below your current production RAM speed the timing stage is test-only, matching the frequency sweep: results are recorded, nothing is applied, production is untouched. A manual timing tune locked below production behaves the same way and can no longer lower your production settings.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.10.3/sccm-retro-update-2.10.3.tar.gz",
-  "sha256": "4e425b22b910c3450fda4f98b8b9b89672165a5371a3e6bce2c9df35427a5d5c",
-  "size": 22733441,
-  "publishedAt": "2026-07-23T17:26:31.741Z"
+  "version": "2.11.0",
+  "tag": "v2.11.0",
+  "notes": "- Publish 2.11.0: Cemu ships over the air, Dreamcast audio, melonDS renderer",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.11.0/sccm-retro-update-2.11.0.tar.gz",
+  "sha256": "4af7a85096e9a29e435ee5ebc0d9d265ad6ded3725ed4d8f3085f3edb54d6540",
+  "size": 52994330,
+  "publishedAt": "2026-07-25T04:40:51.908Z"
 }
