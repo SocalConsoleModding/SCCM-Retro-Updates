@@ -1,9 +1,9 @@
 {
-  "version": "2.11.1",
-  "tag": "v2.11.1",
-  "notes": "- fix report issues\n- fixed overlay\n- cemu fixes",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.11.1/sccm-retro-update-2.11.1.tar.gz",
-  "sha256": "f222b6f400e7b84c2297460ea7d321dcf0a9eef756508b90ae7ba916686fbb9a",
-  "size": 52997050,
-  "publishedAt": "2026-07-25T17:41:41.822Z"
+  "version": "2.13.0",
+  "tag": "v2.13.0",
+  "notes": "overclocking/tuning fixes\nperformance overlay fixes\nGPU UV tuner",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.13.0/sccm-retro-update-2.13.0.tar.gz",
+  "sha256": "4cd1b253c6371c4b0b98430661ca90259cb76a9dcc7dbcf819355f699d27e9ab",
+  "size": 53026168,
+  "publishedAt": "2026-07-26T15:04:21.339Z"
 }
