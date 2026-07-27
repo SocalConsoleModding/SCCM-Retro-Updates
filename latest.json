@@ -1,9 +1,9 @@
 {
-  "version": "2.13.0",
-  "tag": "v2.13.0",
-  "notes": "overclocking/tuning fixes\nperformance overlay fixes\nGPU UV tuner",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.13.0/sccm-retro-update-2.13.0.tar.gz",
-  "sha256": "4cd1b253c6371c4b0b98430661ca90259cb76a9dcc7dbcf819355f699d27e9ab",
-  "size": 53026168,
-  "publishedAt": "2026-07-26T15:04:21.339Z"
+  "version": "2.14.0",
+  "tag": "v2.14.0",
+  "notes": "re release. see discord",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.14.0/sccm-retro-update-2.14.0.tar.gz",
+  "sha256": "53b96bd6f857d07ba5ecacbcd4cbc14fcc2041d20eecd559d3cddb29276cde46",
+  "size": 53031535,
+  "publishedAt": "2026-07-27T01:36:33.794Z"
 }
