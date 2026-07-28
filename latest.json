@@ -1,9 +1,9 @@
 {
-  "version": "2.14.0",
-  "tag": "v2.14.0",
-  "notes": "re release. see discord",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.14.0/sccm-retro-update-2.14.0.tar.gz",
-  "sha256": "53b96bd6f857d07ba5ecacbcd4cbc14fcc2041d20eecd559d3cddb29276cde46",
-  "size": 53031535,
-  "publishedAt": "2026-07-27T01:36:33.794Z"
+  "version": "2.15.0",
+  "tag": "v2.15.0",
+  "notes": "- tuner: report the scatter engine the workers actually use\n- 2.15.0: 3DS motion, Wii U .wua packing, tuner scatter-soak gate, and a large community bug batch\n- 3DS: flag missing shared system archives instead of leaving a red sign on screen\n- 3DS Mii import is a Mii Maker setting, not something the launcher can patch\n- Compat reports: report the OC profile a launch actually applied, and stop publishing stock-clocked flops\n- 3DS text entry: a blank name no longer traps the player, and Azahar dialogs are shown in our own UI",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.15.0/sccm-retro-update-2.15.0.tar.gz",
+  "sha256": "8e3400a9cc323eea23295b09917aeb9725abc1613a3e5d9c19594f96040eefbb",
+  "size": 67330692,
+  "publishedAt": "2026-07-28T16:42:03.259Z"
 }
