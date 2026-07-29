@@ -1,10 +1,10 @@
 {
-  "version": "2.17.0",
-  "tag": "v2.17.0",
-  "notes": "- 3DS motion: a sensor that opens but reads nothing must not block the fallback\n- 2.16.0: 3DS gyro on every console, GPU undervolt repairs, OTA build identity\n- 3DS motion: find the console IMU by its channels, not its chip name\n- 3DS motion: un-invert the console axes, and make a silent bridge explain itself\n- ram-tuner: commit the best A/B verbatim, label status rows, repair two selftests",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.17.0/sccm-retro-update-2.17.0.tar.gz",
-  "sha256": "a1967bd6e0128a2f39aa96a6130df1bb6979da8675123ee4284ed05a16fc210d",
-  "size": 63148301,
-  "buildId": "20260729014650",
-  "publishedAt": "2026-07-29T01:47:04.114Z"
+  "version": "2.17.1",
+  "tag": "v2.17.1",
+  "notes": "Hotfix for 2.17.0.\n\n- Clears any GPU undervolt that was stored before 2.17.0. Until then the setting could not actually be written at boot, so those values were never in force and never validated. 2.17.0 applied them for the first time, and one too deep for your console could stop it booting.\n- If a GPU undervolt ever does stop the console booting, it now drops back to stock voltage by itself on the next boot instead of failing the same way forever.\n- Re-run the GPU undervolt tuner if you want the offset back.\n\nStuck on a black screen after 2.17.0? Over SSH: sudo rm -f /etc/sccm/gpu-uv-mv && sudo reboot",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.17.1/sccm-retro-update-2.17.1.tar.gz",
+  "sha256": "8ef2650f8df4cd881f1681c05e3814d468d60d11e75a819c0a22dcd46fcd5aa4",
+  "size": 63149756,
+  "buildId": "20260729040905",
+  "publishedAt": "2026-07-29T04:09:22.776Z"
 }
