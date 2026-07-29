@@ -1,10 +1,10 @@
 {
-  "version": "2.16.0",
-  "tag": "v2.16.0",
-  "notes": "- Performance overlay fixes\n- cpu exceeding 1180 on launch\n- update changes",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.16.0/sccm-retro-update-2.16.0.tar.gz",
-  "sha256": "5c03cf8f0b7a92994f9ec80fc68a53629b162aab4d7234e33e8e609b163128ec",
-  "size": 63141373,
-  "buildId": "20260728231016",
-  "publishedAt": "2026-07-28T23:10:31.023Z"
+  "version": "2.17.0",
+  "tag": "v2.17.0",
+  "notes": "- 3DS motion: a sensor that opens but reads nothing must not block the fallback\n- 2.16.0: 3DS gyro on every console, GPU undervolt repairs, OTA build identity\n- 3DS motion: find the console IMU by its channels, not its chip name\n- 3DS motion: un-invert the console axes, and make a silent bridge explain itself\n- ram-tuner: commit the best A/B verbatim, label status rows, repair two selftests",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.17.0/sccm-retro-update-2.17.0.tar.gz",
+  "sha256": "a1967bd6e0128a2f39aa96a6130df1bb6979da8675123ee4284ed05a16fc210d",
+  "size": 63148301,
+  "buildId": "20260729014650",
+  "publishedAt": "2026-07-29T01:47:04.114Z"
 }
