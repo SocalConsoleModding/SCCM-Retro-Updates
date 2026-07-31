@@ -1,10 +1,10 @@
 {
-  "version": "2.17.1",
-  "tag": "v2.17.1",
-  "notes": "Hotfix for 2.17.0.\n\n- Clears any GPU undervolt that was stored before 2.17.0. Until then the setting could not actually be written at boot, so those values were never in force and never validated. 2.17.0 applied them for the first time, and one too deep for your console could stop it booting.\n- If a GPU undervolt ever does stop the console booting, it now drops back to stock voltage by itself on the next boot instead of failing the same way forever.\n- Re-run the GPU undervolt tuner if you want the offset back.\n\nStuck on a black screen after 2.17.0? Over SSH: sudo rm -f /etc/sccm/gpu-uv-mv && sudo reboot",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.17.1/sccm-retro-update-2.17.1.tar.gz",
-  "sha256": "8ef2650f8df4cd881f1681c05e3814d468d60d11e75a819c0a22dcd46fcd5aa4",
-  "size": 63149756,
-  "buildId": "20260729040905",
-  "publishedAt": "2026-07-29T04:09:22.776Z"
+  "version": "2.18.0",
+  "tag": "v2.18.0",
+  "notes": "- controllers: full tilt on diagonals for PS2 and PSP\n- dolphin: never let a port inherit the previous pad's binding\n- in-game menu: real pause and live settings for PS2, DS and Wii U\n- launcher: optional GPU voltage on the home screen\n- uploads: honor the Linux storage choice, and keep honoring it\n- tuner: one unified RAM overclock tuner, stability-first",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.18.0/sccm-retro-update-2.18.0.tar.gz",
+  "sha256": "06d887d7c7076816ff554fd7316863fae08863eda31047c73ff7abafcae30c61",
+  "size": 63182971,
+  "buildId": "20260731203445",
+  "publishedAt": "2026-07-31T20:34:57.601Z"
 }
