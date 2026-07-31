@@ -1,10 +1,10 @@
 {
-  "version": "2.18.0",
-  "tag": "v2.18.0",
-  "notes": "- controllers: full tilt on diagonals for PS2 and PSP\n- dolphin: never let a port inherit the previous pad's binding\n- in-game menu: real pause and live settings for PS2, DS and Wii U\n- launcher: optional GPU voltage on the home screen\n- uploads: honor the Linux storage choice, and keep honoring it\n- tuner: one unified RAM overclock tuner, stability-first",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.18.0/sccm-retro-update-2.18.0.tar.gz",
-  "sha256": "06d887d7c7076816ff554fd7316863fae08863eda31047c73ff7abafcae30c61",
-  "size": 63182971,
-  "buildId": "20260731203445",
-  "publishedAt": "2026-07-31T20:34:57.601Z"
+  "version": "2.18.1",
+  "tag": "v2.18.1",
+  "notes": "**SCCM Retro - Update 2.18.1**\n\n**Bug Fixes**\n- **Fixed the stutter with the performance overlay turned on.** Reported in Dolphin, but it was not a Dolphin problem: the overlay was fetching the CPU and memory readings in a way that started a privileged process for every single value, three times a second while a game ran, and swept every temperature sensor on the console each time. That landed as a small hitch every second or two, in the sound as much as the picture.\n- The overlay now reads everything in one go and reuses the result for a few seconds, and only reads the three sensors it actually shows. Measured on a console: about a tenth of the work it was doing before.\n- If you turned the performance overlay off to avoid this, you can turn it back on.\n\nThanks to letum00 for narrowing it down to the overlay, which is what made it findable.\n\nReleased OTA",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.18.1/sccm-retro-update-2.18.1.tar.gz",
+  "sha256": "95ea6205745c5bb9b3df3f17e922a187cd1a2d89ff99301e3d98d1d05047591d",
+  "size": 63183840,
+  "buildId": "20260731221721",
+  "publishedAt": "2026-07-31T22:17:34.393Z"
 }
