@@ -1,10 +1,10 @@
 {
-  "version": "2.18.1",
-  "tag": "v2.18.1",
-  "notes": "**SCCM Retro - Update 2.18.1**\n\n**Bug Fixes**\n- **Fixed the stutter with the performance overlay turned on.** Reported in Dolphin, but it was not a Dolphin problem: the overlay was fetching the CPU and memory readings in a way that started a privileged process for every single value, three times a second while a game ran, and swept every temperature sensor on the console each time. That landed as a small hitch every second or two, in the sound as much as the picture.\n- The overlay now reads everything in one go and reuses the result for a few seconds, and only reads the three sensors it actually shows. Measured on a console: about a tenth of the work it was doing before.\n- If you turned the performance overlay off to avoid this, you can turn it back on.\n\nThanks to letum00 for narrowing it down to the overlay, which is what made it findable.\n\nReleased OTA",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.18.1/sccm-retro-update-2.18.1.tar.gz",
-  "sha256": "95ea6205745c5bb9b3df3f17e922a187cd1a2d89ff99301e3d98d1d05047591d",
-  "size": 63183840,
-  "buildId": "20260731221721",
-  "publishedAt": "2026-07-31T22:17:34.393Z"
+  "version": "2.19.0",
+  "tag": "v2.19.0",
+  "notes": "- Faster ram tuning\n- Manually set ram values without tuning\n- controller fixes",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.19.0/sccm-retro-update-2.19.0.tar.gz",
+  "sha256": "e0e3c5a0c3a2848e1ab46e3d100eca09f55d820e241e59b3c7888446decdeac6",
+  "size": 63186936,
+  "buildId": "20260801184856",
+  "publishedAt": "2026-08-01T18:49:09.796Z"
 }
