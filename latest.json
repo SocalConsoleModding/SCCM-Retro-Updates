@@ -1,10 +1,10 @@
 {
-  "version": "2.19.0",
-  "tag": "v2.19.0",
-  "notes": "- Faster ram tuning\n- Manually set ram values without tuning\n- controller fixes",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.19.0/sccm-retro-update-2.19.0.tar.gz",
-  "sha256": "e0e3c5a0c3a2848e1ab46e3d100eca09f55d820e241e59b3c7888446decdeac6",
-  "size": 63186936,
-  "buildId": "20260801184856",
-  "publishedAt": "2026-08-01T18:49:09.796Z"
+  "version": "2.19.1",
+  "tag": "v2.19.1",
+  "notes": "- Fixed: setting RAM manually no longer blocks compatibility reports",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.19.1/sccm-retro-update-2.19.1.tar.gz",
+  "sha256": "f20b17e0d82dc3bd3514b8ddecbcc174072b09a3fa7b41a260b20856b0bd233d",
+  "size": 63187873,
+  "buildId": "20260801194737",
+  "publishedAt": "2026-08-01T19:47:50.088Z"
 }
