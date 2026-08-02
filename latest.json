@@ -1,10 +1,10 @@
 {
-  "version": "2.19.1",
-  "tag": "v2.19.1",
-  "notes": "- Fixed: setting RAM manually no longer blocks compatibility reports",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.19.1/sccm-retro-update-2.19.1.tar.gz",
-  "sha256": "f20b17e0d82dc3bd3514b8ddecbcc174072b09a3fa7b41a260b20856b0bd233d",
-  "size": 63187873,
-  "buildId": "20260801194737",
-  "publishedAt": "2026-08-01T19:47:50.088Z"
+  "version": "2.20.0",
+  "tag": "v2.20.0",
+  "notes": "- cemu: hold ctrl+Tab so the TV/GamePad screen swap actually lands\n- wiiu: pick GamePad or Pro Controller per ROM",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.20.0/sccm-retro-update-2.20.0.tar.gz",
+  "sha256": "8380f0e492ba215a1c6a586965a9623f0c3dab79c1b868bf1edef17d1f92adb6",
+  "size": 63189299,
+  "buildId": "20260802012622",
+  "publishedAt": "2026-08-02T01:26:36.514Z"
 }
