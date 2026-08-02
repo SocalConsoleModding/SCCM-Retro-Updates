@@ -1,10 +1,10 @@
 {
-  "version": "2.20.0",
-  "tag": "v2.20.0",
-  "notes": "- cemu: hold ctrl+Tab so the TV/GamePad screen swap actually lands\n- wiiu: pick GamePad or Pro Controller per ROM",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.20.0/sccm-retro-update-2.20.0.tar.gz",
-  "sha256": "8380f0e492ba215a1c6a586965a9623f0c3dab79c1b868bf1edef17d1f92adb6",
-  "size": 63189299,
-  "buildId": "20260802012622",
-  "publishedAt": "2026-08-02T01:26:36.514Z"
+  "version": "2.22.0",
+  "tag": "v2.22.0",
+  "notes": "**SCCM Retro - Update 2.22.0**\n\nWii U gets the docked dual-screen treatment, motion controls finally work on the Pro Controller, and you can sign in to RetroAchievements from your phone.\n\n**Wii U**\n- **Docked dual-screen**, the same idea as the 3DS one: the TV picture stays on the TV and the **GamePad screen moves to the console's own screen**, with touch. Turn it on per game in Performance settings under \"Docked screen mode\".\n- The pause menu hides the TV/GamePad swap while dual-screen is running, since both screens are already in front of you.\n\n**Motion controls**\n- **Wii motion now works with a Pro Controller.** It never did: the launcher pointed the motion binding at a device Dolphin does not actually create, so every tilt and pointer bind was silently dead. Applies to the Wii Remote and Nunchuk controller types.\n- **Nunchuk shake** works from the same pad when you are playing with a single Pro Controller.\n- 3DS motion can now use a Pro Controller plugged in over USB, not just a wireless pad.\n\n**RetroAchievements**\n- **Sign in from your phone or PC** on the web page at :8097, new RetroAchievements tab. Paste your login and API key with a real keyboard instead of the on-screen one.\n- Found the reason Dreamcast and PS1 games never earn anything: RetroArch cannot read CHD files well enough to identify them, so those discs match nothing. The corrected build is done and proven, Crazy Taxi went from unrecognized to 82 achievements, but it replaces a system file this update does not carry. It ships in the next one.\n\n**Pause menu**\n- Reorganized into **Display**, **Performance** and **Game**, so the menu fits on one screen instead of scrolling. Systems with only a couple of options keep them as plain rows.\n- New panel on the right showing the time, your total and session play time, and your achievements for that game.\n\n**Web page (:8097)**\n- Add ROMs, Add Cheats, Add BIOS and File Manager are now one **Files** tab, with ROMs, Saves, BIOS, Cheats and Screenshots inside it.\n- One big drop zone under the tabs: what you drop goes wherever you are looking, so saves and BIOS no longer need their own page.\n\nKnown issues\n- Wii U dual-screen has only been proven to open both screens, not to run a game across them. Two screens means two images drawn per frame, so there is a performance cost nobody has measured yet. Reports welcome.\n- Pro Controller motion is confirmed connected and correctly configured, but nobody has felt it in a game yet. If a direction is backwards, say which one and it is a one line fix.\n- GameCube and Wii achievements need a clean rip. Scrubbed or repacked images (NKit and similar) cannot be identified, and nothing tells you that on screen yet.\n\nReleased OTA",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.22.0/sccm-retro-update-2.22.0.tar.gz",
+  "sha256": "cb3887b505132a42fafad47847712c030aeb9bbc9fb183a7dea2ec31240d83d0",
+  "size": 63197906,
+  "buildId": "20260802185732",
+  "publishedAt": "2026-08-02T18:57:48.456Z"
 }
