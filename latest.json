@@ -1,10 +1,10 @@
 {
-  "version": "2.23.0",
-  "tag": "v2.23.0",
-  "notes": "- big improvements to ram tuner reliability\n- cpu uv tuner actually works\n- fixes for erista",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.23.0/sccm-retro-update-2.23.0.tar.gz",
-  "sha256": "a5f76f4eacd1e7e3e9f2c08156ab8bcbd18823a39254eb29c53465b7bd73e153",
-  "size": 49147530,
-  "buildId": "20260806011848",
-  "publishedAt": "2026-08-06T01:18:58.286Z"
+  "version": "2.24.0",
+  "tag": "v2.24.0",
+  "notes": "SCCM Retro 2.24.0\n\nControllers\n- Wii U Pro Controller face buttons are mapped correctly.\n- Motion controls can be inverted per axis on the remap screen (Wii, 3DS).\n- Stick directions can be bound to buttons, and Shake and Recenter are bindable.\n\nEmulators\n- Wii U now runs with V-Sync on, which removes the tearing.\n- 3DS motion no longer drifts on its own.\n- Multi-disc games show as one item instead of one per disc.\n\nOverlay and display\n- Per-game overlay settings now actually apply.\n- Readings are grouped by CPU, GPU and RAM, with a new bar layout across the top.\n- 720p added to the docked resolutions.\n\nSound\n- Bluetooth headphones are used automatically when connected.\n- Docked volume is remembered across a reboot.\n\nStorage and achievements\n- Games dropped on the SD card no longer come back as duplicates.\n- Achievements now work on Dreamcast and PS1 disc images.\n- Upload shaders from the web page, and import Miis under Saves.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.24.0/sccm-retro-update-2.24.0.tar.gz",
+  "sha256": "c2ee0429360e01d7682aba1f50a97fa842ea2757a6a0398c7a56c0cfe74f82dc",
+  "size": 56870913,
+  "buildId": "20260806183144",
+  "publishedAt": "2026-08-06T18:32:00.041Z"
 }
