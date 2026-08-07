@@ -1,10 +1,10 @@
 {
-  "version": "2.24.0",
-  "tag": "v2.24.0",
-  "notes": "SCCM Retro 2.24.0\n\nControllers\n- Wii U Pro Controller face buttons are mapped correctly.\n- Motion controls can be inverted per axis on the remap screen (Wii, 3DS).\n- Stick directions can be bound to buttons, and Shake and Recenter are bindable.\n\nEmulators\n- Wii U now runs with V-Sync on, which removes the tearing.\n- 3DS motion no longer drifts on its own.\n- Multi-disc games show as one item instead of one per disc.\n\nOverlay and display\n- Per-game overlay settings now actually apply.\n- Readings are grouped by CPU, GPU and RAM, with a new bar layout across the top.\n- 720p added to the docked resolutions.\n\nSound\n- Bluetooth headphones are used automatically when connected.\n- Docked volume is remembered across a reboot.\n\nStorage and achievements\n- Games dropped on the SD card no longer come back as duplicates.\n- Achievements now work on Dreamcast and PS1 disc images.\n- Upload shaders from the web page, and import Miis under Saves.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.24.0/sccm-retro-update-2.24.0.tar.gz",
-  "sha256": "c2ee0429360e01d7682aba1f50a97fa842ea2757a6a0398c7a56c0cfe74f82dc",
-  "size": 56870913,
-  "buildId": "20260806183144",
-  "publishedAt": "2026-08-06T18:32:00.041Z"
+  "version": "2.25.0",
+  "tag": "v2.25.0",
+  "notes": "Your CPU clock now follows a voltage limit you set. Pick the limit, and the console\nruns the fastest clock it can actually hold under it, measured on your own chip\nduring normal play. The CPU clock tuner is gone; there is nothing to run.\n\nNew default limit: 1120 mV on V2 and OLED, 1225 mV on V1. This update applies it to\nevery console, so your top clock may change. Raise the limit on the Overclock tab if\nyou want more.\n\nAlso: GPU undervolt now moves in 5 mV steps and survives a restart, the tuning\nprogress screen shows a QR code you can scan to watch from your phone, and Cemu's\nfast-forward and game options appear in the pause menu on the first launch.\n\nFixed: a CPU max clock that kept dropping on its own and never came back.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.25.0/sccm-retro-update-2.25.0.tar.gz",
+  "sha256": "e783d6d1b49a0d20c1fcba808af26ffd9d1cb94de859f40a6f3166d4ba9caf2e",
+  "size": 56876881,
+  "buildId": "20260807010629",
+  "publishedAt": "2026-08-07T01:06:49.359Z"
 }
