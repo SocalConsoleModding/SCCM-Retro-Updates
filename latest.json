@@ -1,10 +1,10 @@
 {
-  "version": "2.28.0",
-  "tag": "v2.28.0",
-  "notes": "Your console can no longer lose the setting it needs to boot. On V2 and OLED a missing\nDVFS value could leave you at a frozen splash with no error, and nothing in the launcher\never wrote that setting, so a reset or a recovery entry could drop it. The boot script\nnow sets it itself. Safe Mode had the same hole and is fixed too. V1 was never affected.\n\nThe official Wii U GameCube adapter now works, with all four ports appearing as normal\ncontrollers everywhere. Nobody has physically pressed a button on one yet, so reports\nare welcome.\n\nPS2 memory cards no longer run out of space. Every PS2 game shared one 8 MB card, so a\nfew big saves filled it. Slot 1 becomes a folder card with no practical limit and your\nsaves move across on the first PS2 launch, with the old card file kept as a backup.\n\nAlso: your CPU max clock stays where you put it, there is a Reset to stock button in the\nOverclocking menu, RAM voltage finally shows on V1, Cemu lists games from both storage\nareas with its face buttons the right way round, the Wii pointer can be mapped to a\nstick, and a game left untouched can now sleep itself and wake on the same frame.\n\nFixed: the RAM tuner refusing to start while your library was full, Wii U updates making\na second icon, and system updates showing a silent black screen mid install.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.28.0/sccm-retro-update-2.28.0.tar.gz",
-  "sha256": "9e2d473d65cbbf77c03bdd42ca6c1226892cdc7f33dd87e0a412cce3c7962978",
-  "size": 84058583,
-  "buildId": "20260813011835",
-  "publishedAt": "2026-08-13T01:18:55.865Z"
+  "version": "2.29.0",
+  "tag": "v2.29.0",
+  "notes": "Over 20 community requests in one update. New: PS2 cheats on both engines, Cemu graphic packs, OEM Joy-Cons and Pro Controllers work with no mapping wizard, a warning when launching with no controller assigned, auto sleep can save a state first (RetroArch consoles and 3DS), game grid tile size, text-only overlay background, SoC temperature and a hang alarm on the live tuning page, and an optional low latency Bluetooth audio mode. Fixed: console info showing another console silicon values on fresh installs, overclock profiles not restoring GPU undervolt and RAM subtimings, the overlay not resizing on dock and undock, docked overlay options not saving, unreadable per-game shader cache errors, PS2 readback labels, and SD card root cleanup into the SCCM-Retro folder.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.29.0/sccm-retro-update-2.29.0.tar.gz",
+  "sha256": "ff9d13b44e1ca33cdd9607a1dd43c489b77b460e90c0631bf2993c5dc1fc816e",
+  "size": 84089769,
+  "buildId": "20260813213959",
+  "publishedAt": "2026-08-13T21:40:23.199Z"
 }
