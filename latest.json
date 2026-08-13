@@ -1,10 +1,10 @@
 {
-  "version": "2.27.1",
-  "tag": "v2.27.1",
-  "notes": "PS2 fixes for the new engine.\n\nFast-forward no longer freezes the picture, and it now starts from the pause menu: press Home while fast-forwarding to stop it and go straight back to the game.\nThe pause menu no longer gets stuck backwards after a save state is refused, and a refused save now says so instead of claiming it saved.\nBoth PS2 engines now share one set of memory cards, so switching engine keeps your in-game saves. Save states are still per engine.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.27.1/sccm-retro-update-2.27.1.tar.gz",
-  "sha256": "f85a130408753ab748443026ff96ec90190ec8a1fd750b7dfd0402441baac251",
-  "size": 84009014,
-  "buildId": "20260811214350",
-  "publishedAt": "2026-08-11T21:44:19.730Z"
+  "version": "2.28.0",
+  "tag": "v2.28.0",
+  "notes": "Your console can no longer lose the setting it needs to boot. On V2 and OLED a missing\nDVFS value could leave you at a frozen splash with no error, and nothing in the launcher\never wrote that setting, so a reset or a recovery entry could drop it. The boot script\nnow sets it itself. Safe Mode had the same hole and is fixed too. V1 was never affected.\n\nThe official Wii U GameCube adapter now works, with all four ports appearing as normal\ncontrollers everywhere. Nobody has physically pressed a button on one yet, so reports\nare welcome.\n\nPS2 memory cards no longer run out of space. Every PS2 game shared one 8 MB card, so a\nfew big saves filled it. Slot 1 becomes a folder card with no practical limit and your\nsaves move across on the first PS2 launch, with the old card file kept as a backup.\n\nAlso: your CPU max clock stays where you put it, there is a Reset to stock button in the\nOverclocking menu, RAM voltage finally shows on V1, Cemu lists games from both storage\nareas with its face buttons the right way round, the Wii pointer can be mapped to a\nstick, and a game left untouched can now sleep itself and wake on the same frame.\n\nFixed: the RAM tuner refusing to start while your library was full, Wii U updates making\na second icon, and system updates showing a silent black screen mid install.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.28.0/sccm-retro-update-2.28.0.tar.gz",
+  "sha256": "9e2d473d65cbbf77c03bdd42ca6c1226892cdc7f33dd87e0a412cce3c7962978",
+  "size": 84058583,
+  "buildId": "20260813011835",
+  "publishedAt": "2026-08-13T01:18:55.865Z"
 }
