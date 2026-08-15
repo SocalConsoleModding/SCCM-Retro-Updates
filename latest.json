@@ -1,10 +1,10 @@
 {
-  "version": "2.30.0",
-  "tag": "v2.30.0",
-  "notes": "Deep sleep. The console can now power its chips down when it sleeps instead of just turning the screen off. New switch in Display and Sound, off by default: turn it on and the power button, the menu screen timeout and a game left alone for the auto sleep time all become a real sleep, the same kind the console does in Switch mode. Measured 89 mW asleep against 957 mW sitting in the menu, about 10 times better, so days on a charge instead of hours. Press the power button to bring it back, which takes a few seconds. Sleeping in a game saves a state first and loads it back when you wake, on the RetroArch consoles and 3DS; GameCube, Wii, PS2, DS and Wii U have no spare slot so they sleep frozen without one. Fixed: waking with the power button could immediately put the console back to sleep. Known issue: a high RAM overclock can stop the console waking up (one test console hung at 2300 MHz and was fine at stock). If that happens hold power for 12 seconds, then lower the overclock or turn deep sleep off.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.30.0/sccm-retro-update-2.30.0.tar.gz",
-  "sha256": "b6a827de0ae90f147c0a72a90c9f1e21704ee8b64a3785524ea7afc8d244e984",
-  "size": 84114246,
-  "buildId": "20260815024200",
-  "publishedAt": "2026-08-15T02:42:16.851Z"
+  "version": "2.31.0",
+  "tag": "v2.31.0",
+  "notes": "Ports and Pokemon. A new Ports tab holds native ports and recompilations, and the first one is Gen1Recomp, a fan rebuild of the Gen 1 Pokemon games. Every Gen 1 Game Boy ROM you already own shows up as its own tile: Red, Blue, Yellow and Gold. Launch one and it goes straight into that game, no menus in between. The first launch of each game prepares it from your ROM and takes a few seconds. Performance settings work on it like any other system: graphics tier, fullscreen, max FPS, color palette, text speed, battle animations and a speed multiplier for the overworld and battles. The in-game menu now offers Save, Load, game speed, palette and the mod manager. Mods install from the console's web page at port 8097, under the new Ports tab: drop the mod's zip and it is on next time you play.\n\nPS2 memory cards are fixed. Loading a save state from an earlier session no longer makes the game think the memory card was pulled out. Jak II and anything else that latches onto a card removal and disables saving are fixed by this. Each PS2 game can also pick its own cards now, under Controllers in the game menu.\n\nPSP is roughly twice as fast. Frame skipping was left on and screen sync was fighting the display; both are corrected. The test game went from 29 FPS to a steady 60.\n\nControllers. Controller port order no longer resets when a pad disconnects, so player 2 stays player 2. Controllers that report no vendor id, mostly licensed and clone pads, were silently losing their mapping at the end of the setup wizard; that is fixed. If you have one of those, run the wizard once more after updating. The Home button now has tap and hold: tap opens the in-game menu, hold force quits.\n\nAlso: an OLED screen recorder for the small number of consoles with a modified panel that sometimes boots black, readable from the Debug tab of the web page.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.0/sccm-retro-update-2.31.0.tar.gz",
+  "sha256": "6083b7b92791f109c208261f28c025d4f348461622a3ffd0879ef0d3b6d909a9",
+  "size": 85122274,
+  "buildId": "20260815223639",
+  "publishedAt": "2026-08-15T22:37:04.817Z"
 }
