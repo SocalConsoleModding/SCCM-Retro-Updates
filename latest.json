@@ -1,10 +1,10 @@
 {
-  "version": "2.31.3",
-  "tag": "v2.31.3",
-  "notes": "Gen1Recomp now comes with the update. The Ports tab is ready the moment the console restarts, with no download and nothing to press, and it works offline. This is Gen1Recomp 0.1.95 by bryanthaboi, included with their permission. If you have a Gen 1 Pokemon Game Boy ROM, Red, Blue, Yellow and Gold appear as their own tiles and launch straight into the game. Each game is prepared from your own ROM the first time you start it, which takes a few seconds, and it is prepared again after a Gen1Recomp update so a tile can never open on the port's \"ROM required\" screen. Games open fullscreen. Mods still install from the Ports tab of the console's web page on port 8097.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.3/sccm-retro-update-2.31.3.tar.gz",
-  "sha256": "00d3ca25f7c1e1833210219eedec39e67f3b36612fd8d606ff39fcc1c7049d05",
-  "size": 119090541,
-  "buildId": "20260816004933",
-  "publishedAt": "2026-08-16T00:49:54.009Z"
+  "version": "2.31.4",
+  "tag": "v2.31.4",
+  "notes": "Fixes three Gen1Recomp problems reported on 2.31.3, which all had the same cause: the launcher was reading and writing the wrong folder, so the game never saw anything it put there. Mods uploaded from the console's web page now actually appear in the game; any you already uploaded are moved across for you. Games no longer open in a window, and no longer pop back to windowed when you change a setting inside a mod. And the SCCM menu no longer comes back on top while you are playing, which previously let you start a second game while one was already running. Games are prepared from your ROM during the launch itself now, so the first start of each game takes a few seconds longer and then goes straight into the game.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.4/sccm-retro-update-2.31.4.tar.gz",
+  "sha256": "d602ecb46eb31aa4d6de91935bde4c5ddb907c672f0008622b8fc706bec3d032",
+  "size": 119092764,
+  "buildId": "20260816021043",
+  "publishedAt": "2026-08-16T02:11:08.076Z"
 }
