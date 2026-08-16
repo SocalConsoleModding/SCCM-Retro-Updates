@@ -1,10 +1,10 @@
 {
-  "version": "2.31.4",
-  "tag": "v2.31.4",
-  "notes": "Fixes three Gen1Recomp problems reported on 2.31.3, which all had the same cause: the launcher was reading and writing the wrong folder, so the game never saw anything it put there. Mods uploaded from the console's web page now actually appear in the game; any you already uploaded are moved across for you. Games no longer open in a window, and no longer pop back to windowed when you change a setting inside a mod. And the SCCM menu no longer comes back on top while you are playing, which previously let you start a second game while one was already running. Games are prepared from your ROM during the launch itself now, so the first start of each game takes a few seconds longer and then goes straight into the game.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.4/sccm-retro-update-2.31.4.tar.gz",
-  "sha256": "d602ecb46eb31aa4d6de91935bde4c5ddb907c672f0008622b8fc706bec3d032",
-  "size": 119092764,
-  "buildId": "20260816021043",
-  "publishedAt": "2026-08-16T02:11:08.076Z"
+  "version": "2.31.5",
+  "tag": "v2.31.5",
+  "notes": "New: Swap A and B, per game. Open a game, go to Controllers, and turn on Swap A and B if that game reads the button under your thumb as the wrong one. It applies to that game only and leaves your other games alone. X and Y swap with it, since it is the same rotation. This is separate from Nintendo Swap in Settings, which only changes which button confirms in the SCCM menus and never affects a game.\n\nAlso fixed: native ports (the Ports tab) now use the controller mappings you set up in the wizard. Until now they ignored them and fell back to whatever the system guessed, so a non-standard or third-party pad could behave oddly in a port. If a port felt wrong on your controller, try it again after this update.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.5/sccm-retro-update-2.31.5.tar.gz",
+  "sha256": "7cb16ae671d6b726d13ac7a92e32061fc638679eaef9151da4f5e48684a40b4b",
+  "size": 119094455,
+  "buildId": "20260816033951",
+  "publishedAt": "2026-08-16T03:40:17.496Z"
 }
