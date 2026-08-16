@@ -1,10 +1,10 @@
 {
-  "version": "2.31.1",
-  "tag": "v2.31.1",
-  "notes": "Fixes the Ports tab. In 2.31.0 the Gen1Recomp support shipped but Gen1Recomp itself did not, so the Ports tab did not appear and the console's web page said it was not installed. Gen1Recomp is made by bryanthaboi and they ask that people only take builds from their own GitHub or Discord, so the console now downloads it straight from their latest release and checks it against the checksum they publish with it. Open the console's web page on port 8097, go to the Ports tab, and press Install Gen1Recomp. It needs internet and is about 33 MB. After that your Gen 1 Game Boy ROMs appear as their own tiles the way the release notes described. Also fixed: games now open fullscreen instead of in a window, and updating Gen1Recomp later re-prepares each game once so a tile can never open on the port's \"ROM required\" screen.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.1/sccm-retro-update-2.31.1.tar.gz",
-  "sha256": "05b0f5c5555867dc5b07ea07cac85b2b7f267477dcf15e0000c3a74ff6f5df2e",
-  "size": 85128119,
-  "buildId": "20260815234834",
-  "publishedAt": "2026-08-15T23:48:49.799Z"
+  "version": "2.31.2",
+  "tag": "v2.31.2",
+  "notes": "Gen1Recomp now sets itself up. If you have a Gen 1 Pokemon Game Boy ROM on your console, the update fetches Gen1Recomp on its own shortly after the console starts, and your games appear as their own tiles on the Ports tab with nothing to press. It comes straight from bryanthaboi's own GitHub release and is checked against the checksum they publish with it, because they ask that builds only come from their github or their discord. It is about 33 MB and needs internet; if your console is offline it simply tries again next time you start it. Consoles with no Gen 1 ROM do not download anything. You can still install it by hand from the Ports tab of the console's web page on port 8097.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.2/sccm-retro-update-2.31.2.tar.gz",
+  "sha256": "bb619a9ce902a2d19b3ab6fa7b0862f800d60f0ebc3e810704e35223697d43d7",
+  "size": 85129575,
+  "buildId": "20260816001001",
+  "publishedAt": "2026-08-16T00:10:34.296Z"
 }
