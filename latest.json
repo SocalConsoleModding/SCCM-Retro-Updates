@@ -1,10 +1,10 @@
 {
-  "version": "2.31.5",
-  "tag": "v2.31.5",
-  "notes": "New: Swap A and B, per game. Open a game, go to Controllers, and turn on Swap A and B if that game reads the button under your thumb as the wrong one. It applies to that game only and leaves your other games alone. X and Y swap with it, since it is the same rotation. This is separate from Nintendo Swap in Settings, which only changes which button confirms in the SCCM menus and never affects a game.\n\nAlso fixed: native ports (the Ports tab) now use the controller mappings you set up in the wizard. Until now they ignored them and fell back to whatever the system guessed, so a non-standard or third-party pad could behave oddly in a port. If a port felt wrong on your controller, try it again after this update.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.31.5/sccm-retro-update-2.31.5.tar.gz",
-  "sha256": "7cb16ae671d6b726d13ac7a92e32061fc638679eaef9151da4f5e48684a40b4b",
-  "size": 119094455,
-  "buildId": "20260816033951",
-  "publishedAt": "2026-08-16T03:40:17.496Z"
+  "version": "2.32.0",
+  "tag": "v2.32.0",
+  "notes": "Controllers no longer go dead after the console has been running for many hours. The right\nJoy-Con was usually the first to stop, and any pad that reconnected after that came back\nunusable. The cause was ours: a reading the launcher took every few seconds was slowly\nstarving the part of the system that hands out controllers.\n\nTwo new emulator engines, each picked per game in that game's Performance settings. DS\ngames can now run on DraStic, and PSP games can now run on standalone PPSSPP. The engines\nyou already use stay the default and are unchanged, and your in-game DS save moves between\nmelonDS and DraStic automatically so you can switch mid playthrough. Neither new engine has\nbeen played with a controller in hand yet, so reports are welcome.\n\nGen1Recomp keeps your settings now. The color palette and game speed no longer reset every\ntime you reopen the game, mods should stay switched on instead of reverting, and the mod\nmanager actually appears when you pick it from the in-game menu. Ports also have box art,\nstay fullscreen after they update themselves, and say what happened when they crash.\n\nNew Cover art tab on the console's web page: search SteamGridDB and pick your own box art\nfor any game. It needs your own free key, pasted once on that tab.\n\nAlso: DS games now launch at the Overclock profile and hold a flat 60 fps, PS1 games get a\nDualShock with the sticks live, DS and 3DS can drive a touch screen pointer with the right\nstick, the Favorites tab can be sorted and can be the tab you land on, and new RAM tuning\nruns leave AC mode off for less heat and more battery.\n\nFixed: PS2 games opening with a Translation Error box every launch, Wii U graphic packs not\nworking on single file .wua games, and the stats overlay defaulting to a shape that tore.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.32.0/sccm-retro-update-2.32.0.tar.gz",
+  "sha256": "a4fa43df751e1cfef7f1c404d2c5e5a04d5dadafd2cff76a103fa0c5c4140fee",
+  "size": 119900890,
+  "buildId": "20260819180651",
+  "publishedAt": "2026-08-19T18:07:11.147Z"
 }
