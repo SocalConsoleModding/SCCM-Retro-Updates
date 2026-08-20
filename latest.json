@@ -1,10 +1,10 @@
 {
-  "version": "2.32.1",
-  "tag": "v2.32.1",
-  "notes": "The console's web page works again. On 2.32.0 it opened but sat frozen on \"Checking free\nspace\", the tabs did nothing when clicked, and picking files uploaded nothing. Every\nconsole on 2.32.0 was affected, whatever you had been doing beforehand and however many\nROMs you have.\n\nThe cause was a typo in the Cover art tab that shipped with 2.32.0. It stopped the whole\npage's code from running, which is why every tab died at once instead of just that one, and\nwhy Choose files still opened the file browser: that button is the one part of the page\nthat needs no code. Nothing was written or lost while the page was broken, because it could\nnot run at all.\n\nThis release changes nothing else, and everything listed under Known issues for 2.32.0\nstill stands.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.32.1/sccm-retro-update-2.32.1.tar.gz",
-  "sha256": "ccb7ab8145d37f7639adb8ae3f7251d8a748e19eba86f6a680683d4cefc65eba",
-  "size": 119900971,
-  "buildId": "20260819192441",
-  "publishedAt": "2026-08-19T19:25:03.583Z"
+  "version": "2.33.0",
+  "tag": "v2.33.0",
+  "notes": "DraStic actually ships this time. 2.32.0 added it as a selectable DS engine but never\nshipped the emulator itself, so choosing DraStic quietly ran melonDS instead. That is why\nthe pause menu still said melonDS. The emulator is in this update.\n\nIt brings docked dual screen with it: with the console docked, the DS top screen goes to\nyour TV and the touch screen goes to the console's own screen, touch included. Turn it on\nper game under Docked screen mode. DraStic also runs at your docked resolution now instead\nof dropping the TV to a stretched low-resolution mode, and its in-game menu pauses the game\ninstead of letting it run on behind the menu.\n\nThe performance overlay reports real numbers again. CPU and RAM looked like they dropped to\nidle clocks mid game, which several of you reported. The overlay read the clock once a\nsecond, and the CPU genuinely changes speed hundreds of times a second, so every reading was\na random snapshot. It now reports what the console actually averaged.\n\nAlso: battery level in the pause menu, a Game language setting for DS games, an option to\nturn off the PS2 emulator's own pop-up notifications, and a clearer message when a port is\nlaunched with no ROM installed. The hbmenu app updates properly now, so a console stuck on\nan old NRO will get the current one.\n\nKnown rough edges: the docked right stick pointer on DS and 3DS still stutters, PS1 analog\ncontrols still do not work in some games, and DS docked dual screen is new enough that\nundocking mid game has not been tested by hand.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.33.0/sccm-retro-update-2.33.0.tar.gz",
+  "sha256": "c9432712e3c31294f3b5614bf5eab74204a0835e71a4850fbcf6a40a65711969",
+  "size": 124509024,
+  "buildId": "20260820203035",
+  "publishedAt": "2026-08-20T20:30:56.584Z"
 }
