@@ -1,10 +1,10 @@
 {
-  "version": "2.34.0",
-  "tag": "v2.34.0",
-  "notes": "DraStic got a full pass from your reports, and this update is mostly that.\n\nControls first: DraStic shipped with a generic Xbox style mapping, which on Switch pads put\nits own menu on right stick right, swapped X with Y and Start with Select, and left the\nd-pad dead. Your controller maps properly now, and the launcher's button remapper applies to\nDraStic the same way it already did for melonDS. Save state, Load state and Fast-forward in\nthe pause menu work; all three did nothing before. Pausing is reliable too, where unlucky\ntiming could previously freeze the emulator for good.\n\nThe touch screen behaved like a laptop trackpad: you had to drag the stylus icon onto a\nbutton and then tap it. Taps now land where you touch, the moment you touch. The optional\nstick pointer moved to the right stick with R3 to tap, and turning it off actually turns it\noff.\n\nDocked dual screen for DS now shows the right screens on the right displays, and the stray\ncursor that wandered around the TV picture is gone.\n\nAlso: controllers work in standalone PPSSPP, which ignored them completely, and a controller\nconnected while another one is already active now gets its setup prompt instead of being\nsilently ignored.\n\nKnown rough edges: the DraStic controls are verified by automated on-console tests but not\nyet by hand on real pads, PPSSPP's own pause menu rows are still unverified, and undocking\nmid game on DS dual screen has not been cycled by hand.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.0/sccm-retro-update-2.34.0.tar.gz",
-  "sha256": "5a801b65f1fd9ca563650482a751aed3e5bc2a738f3899fb8b0af740b666797b",
-  "size": 124514917,
-  "buildId": "20260821154746",
-  "publishedAt": "2026-08-21T15:48:07.872Z"
+  "version": "2.34.1",
+  "tag": "v2.34.1",
+  "notes": "Two fixes for reports on 2.34.0.\n\nDS games could close themselves when you resumed from the SCCM pause menu. DraStic's own\nmenu is what the launcher pauses with, and a controller press while that menu was up could\nclose it behind the launcher's back, which turned the resume into a quit. DraStic's menu no\nlonger takes controller input at all, and resuming is now safe whatever state it is in.\n\nOn PSP games, one press of Home opened the SCCM menu and left PPSSPP's own pause menu\nsitting behind it, so the game came back with an extra menu on screen. Emulators are no\nlonger told which button Home is; it belongs to the launcher.\n\nKnown rough edges are unchanged from 2.34.0: the DraStic controls are verified by automated\non-console tests but not yet by hand on real pads, and PPSSPP's own pause menu rows are\nstill unverified.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.1/sccm-retro-update-2.34.1.tar.gz",
+  "sha256": "e819e2936c70bf12c995418606ead26c77941c5794055b4e0df18825dc79c983",
+  "size": 124516525,
+  "buildId": "20260821183559",
+  "publishedAt": "2026-08-21T18:37:06.136Z"
 }
