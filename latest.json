@@ -1,10 +1,10 @@
 {
-  "version": "2.34.5",
-  "tag": "v2.34.5",
-  "notes": "A small update that makes controller problems reportable.\n\nIf you have told me your controller connects but does nothing in PPSSPP, this build is\nwhat lets me finish that one. Your controller report now includes what PPSSPP and\nDraStic actually saw of your controllers, which buttons PPSSPP has bound, and which\nversion of the launcher you are running. Before, the report showed your controller\nsetup and nothing about the emulator, which is why several reports could not be\nanswered.\n\nNothing about how your console plays changes in this update.\n\nIf your controller does not work in PPSSPP, please send a fresh report. The order\nmatters, because the report reads the emulator's own log: update, start your PSP game,\ntry the controller, and then send the report from Settings.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.5/sccm-retro-update-2.34.5.tar.gz",
-  "sha256": "6506b6543afddc8d674f107835cc3a80a655b79dfa86b737f383cc400a54255b",
-  "size": 124530295,
-  "buildId": "20260822213334",
-  "publishedAt": "2026-08-22T21:34:02.016Z"
+  "version": "2.34.6",
+  "tag": "v2.34.6",
+  "notes": "The PPSSPP controller bug is fixed.\n\nIf your controller connected in PPSSPP but no button did anything, this was the cause.\nThe launcher was creating PPSSPP's control settings file before PPSSPP had ever run,\nand PPSSPP only sets up its default controls when it finds no settings of its own. So\non a console where PPSSPP had never been opened, it started with nothing mapped at all,\nand no later launch ever repaired it. Your controller was fine the whole time.\n\nYour console repairs itself the next time you start a PSP game. One thing to expect:\nthat first launch gives you your buttons back, and the launcher's own shortcuts (save\nstate, load state, screenshot, reset) return on the launch after. Start the game once,\nquit, and start it again, and everything is in place.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.6/sccm-retro-update-2.34.6.tar.gz",
+  "sha256": "1ac0fe63759568595584f43b533bdc2b1708988daeab86026fdc217e480361fb",
+  "size": 124531896,
+  "buildId": "20260822220030",
+  "publishedAt": "2026-08-22T22:00:54.809Z"
 }
