@@ -1,10 +1,10 @@
 {
-  "version": "2.34.3",
-  "tag": "v2.34.3",
-  "notes": "Fixes from your reports, plus two small additions to the pause menu.\n\nThe RAM and CPU undervolt tuners now find your games when your ROM folder is somewhere\nother than the default. Before, they refused to start with \"no GameCube or Wii game\nfound\" while the launcher was visibly showing your games. The stability test also boots\nfrom your save state properly now; on some consoles it was quietly starting the game\nfrom its title screen instead, which tests far less of your memory.\n\nControllers: a pad whose Home button lives on a second internal device, like the CRKD\nNitro Deck, now opens the pause menu and can be mapped. And DraStic and PPSSPP use the\ncontroller you assigned to port 1; before, both used whichever pad was connected first,\nso setting a Pro Controller to port 1 changed nothing and its stick still did the wrong\nthing.\n\nSaving your performance overlay layout now closes the options panel and confirms it on\nscreen for a few seconds, instead of leaving you unsure whether it saved. The pause\nmenu's Performance section gains an Overlay location row that moves the readout between\nthe four corners and a bar across the top, live, while a game is running.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.3/sccm-retro-update-2.34.3.tar.gz",
-  "sha256": "83951c5e965015067b25e856b5a6ea181acb926618251d789a69bb7112d09190",
-  "size": 124525128,
-  "buildId": "20260822153659",
-  "publishedAt": "2026-08-22T15:37:18.669Z"
+  "version": "2.34.4",
+  "tag": "v2.34.4",
+  "notes": "Important fix for DS games and the Gen1Recomp port, plus controller fixes.\n\nIf your console only ever updates over the air, DS games and the Gen1Recomp port would\nnot start at all on 2.34.3. Nothing happened when you launched them. The update package\nis built on Windows, which cannot mark a file as runnable on Linux, so both engines\narrived without permission to run. They are marked correctly now, both at launch time\nand by the boot installer, so this cannot happen to a future engine either.\n\nDraStic's own menu no longer flashes in front of the SCCM pause menu. After the first\npause it appeared in front every time, and your controller drove it instead of the\nSCCM menu.\n\nPPSSPP again works with a controller that was never taken through controller setup. In\n2.34.3 the port 1 change could leave PPSSPP with no usable controller at all if the pad\nyou assigned to port 1 had not been set up. Which pads an emulator can see is now based\non what the system actually reports, so a controller you never set up cannot take the\nslot from one you did.\n\nIf your controller still does not work in PPSSPP, that one is not fixed yet, but a\nreport from your console is now worth far more: the debug report includes what PPSSPP\nand DraStic saw of your controllers. Please send a fresh one from Settings.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.4/sccm-retro-update-2.34.4.tar.gz",
+  "sha256": "c70a8f644b33fd15c34bc51a9952bdc38732de7950fc942d2007bca70b78a268",
+  "size": 124526119,
+  "buildId": "20260822201322",
+  "publishedAt": "2026-08-22T20:13:57.739Z"
 }
