@@ -1,10 +1,10 @@
 {
-  "version": "2.34.4",
-  "tag": "v2.34.4",
-  "notes": "Important fix for DS games and the Gen1Recomp port, plus controller fixes.\n\nIf your console only ever updates over the air, DS games and the Gen1Recomp port would\nnot start at all on 2.34.3. Nothing happened when you launched them. The update package\nis built on Windows, which cannot mark a file as runnable on Linux, so both engines\narrived without permission to run. They are marked correctly now, both at launch time\nand by the boot installer, so this cannot happen to a future engine either.\n\nDraStic's own menu no longer flashes in front of the SCCM pause menu. After the first\npause it appeared in front every time, and your controller drove it instead of the\nSCCM menu.\n\nPPSSPP again works with a controller that was never taken through controller setup. In\n2.34.3 the port 1 change could leave PPSSPP with no usable controller at all if the pad\nyou assigned to port 1 had not been set up. Which pads an emulator can see is now based\non what the system actually reports, so a controller you never set up cannot take the\nslot from one you did.\n\nIf your controller still does not work in PPSSPP, that one is not fixed yet, but a\nreport from your console is now worth far more: the debug report includes what PPSSPP\nand DraStic saw of your controllers. Please send a fresh one from Settings.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.4/sccm-retro-update-2.34.4.tar.gz",
-  "sha256": "c70a8f644b33fd15c34bc51a9952bdc38732de7950fc942d2007bca70b78a268",
-  "size": 124526119,
-  "buildId": "20260822201322",
-  "publishedAt": "2026-08-22T20:13:57.739Z"
+  "version": "2.34.5",
+  "tag": "v2.34.5",
+  "notes": "A small update that makes controller problems reportable.\n\nIf you have told me your controller connects but does nothing in PPSSPP, this build is\nwhat lets me finish that one. Your controller report now includes what PPSSPP and\nDraStic actually saw of your controllers, which buttons PPSSPP has bound, and which\nversion of the launcher you are running. Before, the report showed your controller\nsetup and nothing about the emulator, which is why several reports could not be\nanswered.\n\nNothing about how your console plays changes in this update.\n\nIf your controller does not work in PPSSPP, please send a fresh report. The order\nmatters, because the report reads the emulator's own log: update, start your PSP game,\ntry the controller, and then send the report from Settings.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.5/sccm-retro-update-2.34.5.tar.gz",
+  "sha256": "6506b6543afddc8d674f107835cc3a80a655b79dfa86b737f383cc400a54255b",
+  "size": 124530295,
+  "buildId": "20260822213334",
+  "publishedAt": "2026-08-22T21:34:02.016Z"
 }
