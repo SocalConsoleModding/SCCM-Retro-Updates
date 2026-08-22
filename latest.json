@@ -1,10 +1,10 @@
 {
-  "version": "2.34.6",
-  "tag": "v2.34.6",
-  "notes": "The PPSSPP controller bug is fixed.\n\nIf your controller connected in PPSSPP but no button did anything, this was the cause.\nThe launcher was creating PPSSPP's control settings file before PPSSPP had ever run,\nand PPSSPP only sets up its default controls when it finds no settings of its own. So\non a console where PPSSPP had never been opened, it started with nothing mapped at all,\nand no later launch ever repaired it. Your controller was fine the whole time.\n\nYour console repairs itself the next time you start a PSP game. One thing to expect:\nthat first launch gives you your buttons back, and the launcher's own shortcuts (save\nstate, load state, screenshot, reset) return on the launch after. Start the game once,\nquit, and start it again, and everything is in place.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.6/sccm-retro-update-2.34.6.tar.gz",
-  "sha256": "1ac0fe63759568595584f43b533bdc2b1708988daeab86026fdc217e480361fb",
-  "size": 124531896,
-  "buildId": "20260822220030",
-  "publishedAt": "2026-08-22T22:00:54.809Z"
+  "version": "2.34.7",
+  "tag": "v2.34.7",
+  "notes": "Controller remaps now take effect in PPSSPP and the AetherSX2 PS2 core.\n\nIf you remapped a control on a game's Controllers screen and it looked right but did\nnothing once the game started, this is why. Standalone PPSSPP and the AetherSX2 core\nare set up entirely by the controller mapping the launcher hands them at launch, and\nthat mapping was being built from your original controller setup rather than from your\nremap. Every other system already applied remaps correctly, which is why only those two\nwere affected.\n\nYour existing remaps work now with no changes needed. If you cleared a control, it now\nstays cleared instead of quietly falling back to its original button. Nothing else\nabout your controls changes.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.7/sccm-retro-update-2.34.7.tar.gz",
+  "sha256": "7dcffb7238f17a273ceab0987c93a059511b2557d012b6b7f243382a0be85335",
+  "size": 124533626,
+  "buildId": "20260822235246",
+  "publishedAt": "2026-08-22T23:53:05.416Z"
 }
