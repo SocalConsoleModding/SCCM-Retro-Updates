@@ -1,10 +1,10 @@
 {
-  "version": "2.34.2",
-  "tag": "v2.34.2",
-  "notes": "Fixes for the DS reports on 2.34.1.\n\nThe DS touch screen works during gameplay now. Taps press and release like a real\nstylus, so bottom screen menus respond the moment you touch them; before, a tap\neither hovered or stuck and menus never fired.\n\nPausing a DS game shows the SCCM menu again, on top, with your controller driving\nit. Before, you could be left looking at DraStic's own menu with a dead\ncontroller. Pause and resume now also verify they landed and retry, so a dropped\nkey can no longer strand the session between states.\n\nHolding Home force quits DS games, like every other system.\n\nAlso: the desktop mouse arrow no longer sits over the picture during play,\nFast-forward moved from the Performance submenu into Game, DS games gained an\nInternal resolution setting with Native as the default, and Swap A and B now\nappears only on the Gen1 ports.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.2/sccm-retro-update-2.34.2.tar.gz",
-  "sha256": "1f359dbb1277615bb0a6317516fcd0b483c07a6988377a991d2b87d880458c7f",
-  "size": 124524926,
-  "buildId": "20260822024251",
-  "publishedAt": "2026-08-22T02:43:30.924Z"
+  "version": "2.34.3",
+  "tag": "v2.34.3",
+  "notes": "Fixes from your reports, plus two small additions to the pause menu.\n\nThe RAM and CPU undervolt tuners now find your games when your ROM folder is somewhere\nother than the default. Before, they refused to start with \"no GameCube or Wii game\nfound\" while the launcher was visibly showing your games. The stability test also boots\nfrom your save state properly now; on some consoles it was quietly starting the game\nfrom its title screen instead, which tests far less of your memory.\n\nControllers: a pad whose Home button lives on a second internal device, like the CRKD\nNitro Deck, now opens the pause menu and can be mapped. And DraStic and PPSSPP use the\ncontroller you assigned to port 1; before, both used whichever pad was connected first,\nso setting a Pro Controller to port 1 changed nothing and its stick still did the wrong\nthing.\n\nSaving your performance overlay layout now closes the options panel and confirms it on\nscreen for a few seconds, instead of leaving you unsure whether it saved. The pause\nmenu's Performance section gains an Overlay location row that moves the readout between\nthe four corners and a bar across the top, live, while a game is running.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.3/sccm-retro-update-2.34.3.tar.gz",
+  "sha256": "83951c5e965015067b25e856b5a6ea181acb926618251d789a69bb7112d09190",
+  "size": 124525128,
+  "buildId": "20260822153659",
+  "publishedAt": "2026-08-22T15:37:18.669Z"
 }
