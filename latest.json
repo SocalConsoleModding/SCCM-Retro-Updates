@@ -1,10 +1,10 @@
 {
-  "version": "2.34.0",
-  "tag": "v2.34.0",
-  "notes": "DraStic got a full pass from your reports, and this update is mostly that.\n\nControls first: DraStic shipped with a generic Xbox style mapping, which on Switch pads put\nits own menu on right stick right, swapped X with Y and Start with Select, and left the\nd-pad dead. Your controller maps properly now, and the launcher's button remapper applies to\nDraStic the same way it already did for melonDS. Save state, Load state and Fast-forward in\nthe pause menu work; all three did nothing before. Pausing is reliable too, where unlucky\ntiming could previously freeze the emulator for good.\n\nThe touch screen behaved like a laptop trackpad: you had to drag the stylus icon onto a\nbutton and then tap it. Taps now land where you touch, the moment you touch. The optional\nstick pointer moved to the right stick with R3 to tap, and turning it off actually turns it\noff.\n\nDocked dual screen for DS now shows the right screens on the right displays, and the stray\ncursor that wandered around the TV picture is gone.\n\nAlso: controllers work in standalone PPSSPP, which ignored them completely, and a controller\nconnected while another one is already active now gets its setup prompt instead of being\nsilently ignored.\n\nKnown rough edges: the DraStic controls are verified by automated on-console tests but not\nyet by hand on real pads, PPSSPP's own pause menu rows are still unverified, and undocking\nmid game on DS dual screen has not been cycled by hand.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.0/sccm-retro-update-2.34.0.tar.gz",
-  "sha256": "5a801b65f1fd9ca563650482a751aed3e5bc2a738f3899fb8b0af740b666797b",
-  "size": 124514917,
-  "buildId": "20260821154746",
-  "publishedAt": "2026-08-21T15:48:07.872Z"
+  "version": "2.34.2",
+  "tag": "v2.34.2",
+  "notes": "Fixes for the DS reports on 2.34.1.\n\nThe DS touch screen works during gameplay now. Taps press and release like a real\nstylus, so bottom screen menus respond the moment you touch them; before, a tap\neither hovered or stuck and menus never fired.\n\nPausing a DS game shows the SCCM menu again, on top, with your controller driving\nit. Before, you could be left looking at DraStic's own menu with a dead\ncontroller. Pause and resume now also verify they landed and retry, so a dropped\nkey can no longer strand the session between states.\n\nHolding Home force quits DS games, like every other system.\n\nAlso: the desktop mouse arrow no longer sits over the picture during play,\nFast-forward moved from the Performance submenu into Game, DS games gained an\nInternal resolution setting with Native as the default, and Swap A and B now\nappears only on the Gen1 ports.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.2/sccm-retro-update-2.34.2.tar.gz",
+  "sha256": "1f359dbb1277615bb0a6317516fcd0b483c07a6988377a991d2b87d880458c7f",
+  "size": 124524926,
+  "buildId": "20260822024251",
+  "publishedAt": "2026-08-22T02:43:30.924Z"
 }
