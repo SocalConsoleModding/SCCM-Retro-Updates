@@ -1,10 +1,10 @@
 {
-  "version": "2.34.7",
-  "tag": "v2.34.7",
-  "notes": "Controller remaps now take effect in PPSSPP and the AetherSX2 PS2 core.\n\nIf you remapped a control on a game's Controllers screen and it looked right but did\nnothing once the game started, this is why. Standalone PPSSPP and the AetherSX2 core\nare set up entirely by the controller mapping the launcher hands them at launch, and\nthat mapping was being built from your original controller setup rather than from your\nremap. Every other system already applied remaps correctly, which is why only those two\nwere affected.\n\nYour existing remaps work now with no changes needed. If you cleared a control, it now\nstays cleared instead of quietly falling back to its original button. Nothing else\nabout your controls changes.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.7/sccm-retro-update-2.34.7.tar.gz",
-  "sha256": "7dcffb7238f17a273ceab0987c93a059511b2557d012b6b7f243382a0be85335",
-  "size": 124533626,
-  "buildId": "20260822235246",
-  "publishedAt": "2026-08-22T23:53:05.416Z"
+  "version": "2.34.8",
+  "tag": "v2.34.8",
+  "notes": "Better controller bug reports, especially for wireless pairing problems.\n\nNothing about how your console plays changes in this update.\n\nIf a controller works while it is attached to the rails but will not connect wirelessly,\nthat used to be very hard to diagnose. Linux cannot pair a Switch controller itself, it\ncan only copy the pairing your Switch already made, and the file that carries the\npairing across is deleted once it has been used. So afterwards nothing could tell\nwhether a controller's pairing had ever reached Linux at all.\n\nThe console now keeps a small permanent record of that: for each controller, when its\npairing was last seen on the Switch side and when it was last saved on the Linux side.\nYour controller report includes that record, your saved pairings by name and address,\nand the Bluetooth log that says whether a controller was refused when it tried to\nconnect. Pairing keys themselves are never included.\n\nThe controller report also now says which version you are on and what PPSSPP and DraStic\ndid with your controller. You will find it under Debug in the file manager page. It is\nlong, so save it as a file and attach it rather than pasting it.\n\nThe pairing record is a system component, so it starts recording one restart after this\nupdate installs.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.8/sccm-retro-update-2.34.8.tar.gz",
+  "sha256": "3dc24b860e35ea2ab684b369f54396e9a4ffbe96705080b42bbf9a4ba2e0057c",
+  "size": 124537204,
+  "buildId": "20260823002335",
+  "publishedAt": "2026-08-23T00:24:09.925Z"
 }
