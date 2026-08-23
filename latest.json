@@ -1,10 +1,10 @@
 {
-  "version": "2.34.8",
-  "tag": "v2.34.8",
-  "notes": "Better controller bug reports, especially for wireless pairing problems.\n\nNothing about how your console plays changes in this update.\n\nIf a controller works while it is attached to the rails but will not connect wirelessly,\nthat used to be very hard to diagnose. Linux cannot pair a Switch controller itself, it\ncan only copy the pairing your Switch already made, and the file that carries the\npairing across is deleted once it has been used. So afterwards nothing could tell\nwhether a controller's pairing had ever reached Linux at all.\n\nThe console now keeps a small permanent record of that: for each controller, when its\npairing was last seen on the Switch side and when it was last saved on the Linux side.\nYour controller report includes that record, your saved pairings by name and address,\nand the Bluetooth log that says whether a controller was refused when it tried to\nconnect. Pairing keys themselves are never included.\n\nThe controller report also now says which version you are on and what PPSSPP and DraStic\ndid with your controller. You will find it under Debug in the file manager page. It is\nlong, so save it as a file and attach it rather than pasting it.\n\nThe pairing record is a system component, so it starts recording one restart after this\nupdate installs.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.34.8/sccm-retro-update-2.34.8.tar.gz",
-  "sha256": "3dc24b860e35ea2ab684b369f54396e9a4ffbe96705080b42bbf9a4ba2e0057c",
-  "size": 124537204,
-  "buildId": "20260823002335",
-  "publishedAt": "2026-08-23T00:24:09.925Z"
+  "version": "2.35.0",
+  "tag": "v2.35.0",
+  "notes": "Community graphics packs for Wii U, two clean new themes, and a batch of fixes from your reports.\n\nWii U games now come with the community graphics packs built in. Open a Wii U game's\npre-launch menu and choose Community Packs, then browse by category: cheats, enhancements,\ngraphics, mods and workarounds. Turning down resolution or shadows here can make a game\nnoticeably smoother, and some packs fix games that would not launch at all.\n\nTwo new themes, clean light and clean dark, with no glow. Pick one in Settings.\n\nThe file manager page has a new Shader / Graphics Packs section. Your games are listed by\nconsole and you can upload a shader cache or a texture pack to any of them. GameCube, Wii,\nWii U, 3DS, PSP and PS2 are covered, and the emulator's own setting is switched on for you.\n\nAlso new: a WiFi indicator and clock in the status bar, sorting per console, a deep sleep\nshortcut on the Home button, wired Ethernet, pointer icon options, and two more PS2\nperformance options for games with graphical glitches.\n\nFixed: PlayStation analog sticks that stayed dead for some controllers, PS2 memory cards\nejecting when you loaded a save state, and the performance overlay drawing white edges\naround every row.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.35.0/sccm-retro-update-2.35.0.tar.gz",
+  "sha256": "74d87b41976519e50c26fd42ef885e6c782230d0470a65acf35d9d6fc2bdb127",
+  "size": 126312311,
+  "buildId": "20260823173927",
+  "publishedAt": "2026-08-23T17:39:48.754Z"
 }
