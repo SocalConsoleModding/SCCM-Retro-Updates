@@ -1,10 +1,10 @@
 {
-  "version": "2.37.0",
-  "tag": "v2.37.0",
-  "notes": "Compatibility reports now know which emulator you actually used.\n\nNothing about how your games play changes in this update. What changes is the\ncommunity compatibility data: which emulator a report describes, and what\nhappens when you apply someone else's setup.\n\nThree platforms can run on two different emulators: PS2 on ARMSX2 or AetherSX2,\nDS on melonDS or DraStic, PSP on the RetroArch core or standalone PPSSPP. Until\nnow a report did not reliably say which one it used. DS reports made with\nDraStic were filed as melonDS, and PSP reports made with standalone PPSSPP were\nfiled as the RetroArch core. On PS2, ratings from both emulators were pooled\ninto a single recommended setup, which could hand you settings that do not even\nexist on the emulator you run.\n\nReports now record the emulator that really ran the game, community setups are\nkept separate per emulator, and each report lists only that emulator's settings.\n\nApplying a community setup now switches you to the emulator it was made on, so\nyou get the whole setup rather than one emulator's settings on another's engine.\n\nApplying a setup no longer touches your overlays. Your stats overlay, your\nemulator FPS overlay, and where they sit on screen are yours and stay put.\n\nMost PS2 setups on record were made with AetherSX2, so applying one can switch\nyou to it. ARMSX2 is the default now, so this shifts as new reports arrive. DS\nand PSP reports made before this update cannot say which emulator they used, so\napplying one leaves your emulator alone rather than guessing.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.37.0/sccm-retro-update-2.37.0.tar.gz",
-  "sha256": "65cfa5c4eff2b4f0c3b47054ab82ac4bb5521ba64e9fb751ca25f66d80730725",
-  "size": 126330497,
-  "buildId": "20260824150112",
-  "publishedAt": "2026-08-24T15:01:36.400Z"
+  "version": "2.38.0",
+  "tag": "v2.38.0",
+  "notes": "Compatibility reports now find your game even if you renamed the file.\n\nUntil now the compatibility database matched games by file name on every system\nexcept GameCube and Wii. If your copy of a game was named even slightly\ndifferently, the pre-launch Compatibility panel found nothing and told you to be\nthe first to report it, when in fact the game already had reports.\n\nReports are now filed against the game itself, read out of the ROM. PlayStation,\nPS2 and PSP use the disc serial, Dreamcast its product number, 3DS and Wii U\ntheir title id, and N64, DS and GBA their cart code. NES, SNES, Game Boy and\nGenesis carry no id inside them, so the ROM itself is fingerprinted instead.\nGameCube and Wii already worked this way and are unchanged.\n\nNothing is lost in the move. The first time anyone reports a game under its new\nidentity, every older report for that game moves across with it, for everyone.\nA game nobody has reported since this update keeps matching on its file name\nuntil someone does.\n\nYour console reads these identities in the background shortly after it starts,\nso opening the Compatibility panel stays instant.\n\nPSP games in .pbp or .cso format, and plain .iso or .bin disc images, have not\nbeen tested. If one cannot be read, that game simply falls back to matching by\nname exactly as it did before.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.38.0/sccm-retro-update-2.38.0.tar.gz",
+  "sha256": "10730879458d2b6191a1c5ecba6d324acdce098743929009d266d5c1c94e3998",
+  "size": 126331677,
+  "buildId": "20260824183049",
+  "publishedAt": "2026-08-24T18:31:16.790Z"
 }
