@@ -7,6 +7,11 @@
   "size": 232406848,
   "buildId": "20260930213634",
   "publishedAt": "2026-09-30T21:37:50.916Z",
+  "full": {
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.41.0/sccm-retro-update-2.41.0-full.tar.gz",
+    "sha256": "34fdeede4c38c4db6b5530167ecc304ffb9e760349fd20f1d87cec7934767570",
+    "size": 367355258
+  },
   "stable": {
     "version": "2.41.0",
     "tag": "v2.41.0",
@@ -15,6 +20,11 @@
     "sha256": "5c00493ce6b699598b81a0d672c38a3bd685dc78a5dace1d5a70633564b8949e",
     "size": 232406848,
     "buildId": "20260930213634",
-    "publishedAt": "2026-09-30T21:37:50.916Z"
+    "publishedAt": "2026-09-30T21:37:50.916Z",
+    "full": {
+      "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.41.0/sccm-retro-update-2.41.0-full.tar.gz",
+      "sha256": "34fdeede4c38c4db6b5530167ecc304ffb9e760349fd20f1d87cec7934767570",
+      "size": 367355258
+    }
   }
 }
