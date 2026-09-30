@@ -1,17 +1,12 @@
 {
-  "version": "2.41.0",
-  "tag": "v2.41.0",
-  "notes": "The whole 2.40 series, now on the Stable channel. If this console was on\n2.40.0, this is everything since. It is a bigger download than usual.\n\nRestart the console once more after the update installs: tear-free display\nthen runs only while a game is on screen, so docked menus are smooth again.\n\nThe console boots much faster, about 28 seconds to the launcher instead of\nabout 50. Updates say UPDATING on the boot logo while they unpack, and an\ninterrupted update no longer breaks the install.\n\nNew on Ports and Apps: Ocarina of Time and Majora's Mask (Ship of Harkinian\nand 2 Ship 2 Harkinian, from your own N64 ROMs, at 20, 30 or 60 FPS, with\nmods from the web page), and Mario Kart Wii as a native port (WiiCompiled,\nbuilt on the console from your own PAL disc in about an hour plugged in,\nwith Retro Rewind for online races). Both are set up from the web page's\nPorts and Apps tab.\n\nNew: a PC Games tab for Windows games, added on the web page: game folders,\nGOG installers, disc images and games you own on Steam. Older and lighter\ngames fit best.\n\nAuto save: in Settings, Display and Sound, Sleep and auto save, RetroArch,\n3DS and PS2 games can save a state every few minutes in their own slot. The\ncontroller that presses Launch plays as player 1.\n\nAlso: Wii U Call of Duty: Black Ops II starts, Wii U disc keys on the web\npage, a GamePad speaker setting and a Capture button that swaps screens;\nGameCube stick calibration for pads that rest off centre; both Saturn cores\ninstalled, YabaSanshiro by default; an on-screen keyboard in Morrowind;\ndocked TVs at 60 Hz; WiFi comes back after docking and sleep; the volume\nbuttons move one step per press; about 40 MB more free memory.\n\nA security fix: the launcher, emulators and ports now install with standard\npermissions, and this update corrects the copies already on the console.\nSaves and settings are not touched.\n\nKnown: on V1 (Erista) consoles the start of a Mario Kart Wii race runs about\n3 fps slower than before, and Retro Rewind's online races were not tested\nhere.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.41.0/sccm-retro-update-2.41.0.tar.gz",
-  "sha256": "5c00493ce6b699598b81a0d672c38a3bd685dc78a5dace1d5a70633564b8949e",
-  "size": 232406848,
-  "buildId": "20260930213634",
-  "publishedAt": "2026-09-30T21:37:50.916Z",
-  "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.41.0/sccm-retro-update-2.41.0-full.tar.gz",
-    "sha256": "34fdeede4c38c4db6b5530167ecc304ffb9e760349fd20f1d87cec7934767570",
-    "size": 367355258
-  },
+  "version": "2.41.1",
+  "tag": "v2.41.1",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nThis update carries a new boot script: the console restarts once for the\nupdate and once more on its own about a minute after the first boot. Do not\npower off while it says part 2 of 2.\n\nThe SD card's fastest mode (DDR200) is now used on Samsung cards only, as\nSwitchroot does. Other cards run in the standard mode: if yours used the\nfast mode, games load a little slower, but SanDisk cards, which cannot run\nit reliably on the Switch, no longer get read errors under load. If a\nSamsung card gives read errors, turn DDR200 off in the SCCM Retro app's Boot\nsettings.\n\nThe SCCM Retro app on the Homebrew menu is now one app: Launch SCCM Retro,\nLaunch in Safe Mode (stock clocks and voltages, once), Options (WiFi and\nBluetooth, boot settings, auto launch), and installing or removing SCCM\nRetro on an SD card. The separate installer and calibration apps are\nremoved.\n\nSwap A and B now applies only to Gen1Recomp and Moonlight, the two games\nthat offer it.\n\nNew background: Arcade, in Settings, Display and Sound, Appearance.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.41.1/sccm-retro-update-2.41.1.tar.gz",
+  "sha256": "d81ddd9c4ddf774eb3c0d9c0ee54dd4d8e80255067f17faecb6f22c4171caf26",
+  "size": 233694039,
+  "buildId": "20260930214501",
+  "publishedAt": "2026-09-30T21:45:58.565Z",
   "stable": {
     "version": "2.41.0",
     "tag": "v2.41.0",
