@@ -1,13 +1,18 @@
 {
-  "version": "2.42.18",
-  "tag": "v2.42.18",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPS1 games no longer crackle. With the tear-free display on, the graphics chip\nslowed itself down so far that every frame waited on the screen and the sound\nran out. A PS1 game now keeps the graphics chip at Stock's full speed while it\nruns, and lets it go when the game closes.\n\nPorts with a game window get a mouse: tap Capture to turn the right-stick mouse\non or off, and click with R3, as in a PC game. The game still sees the right\nstick, so a camera on that stick moves with the pointer while it is on.\n\nTested on one console. The PS1 fix was measured in handheld at Stock clocks\nwith Crash Bandicoot; Battery Saver and docked play were not tried, and a PS1\ngame now uses more battery than before. The port mouse was tried in one port.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.18/sccm-retro-update-2.42.18.tar.gz",
-  "sha256": "eae72fb3ce80db2a8404a41b80f57cf7bb3f4454bb9d69f7c901c213a8d2807c",
-  "size": 273885274,
-  "buildId": "20261008222212",
-  "publishedAt": "2026-10-08T22:23:55.437Z",
+  "version": "2.42.19",
+  "tag": "v2.42.19",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nDDR200, the SD card's fastest mode, is now tested per card. Settings, Performance,\nSD Card measures your card at standard speed, then restarts once into DDR200 to\nmeasure it again and check it under load, about three minutes. A popup then shows\nboth speed runs, the retried errors per GB, any reads or writes that failed and any\ndata that came back wrong. DDR200 is recommended when the card reads at least 10\npercent faster, with no wrong data, no failed reads or writes and under 3 retried\nerrors per GB, and you choose to keep it or go back to standard speed. A card that\nonly missed the error limit can still be forced on.\n\nDDR200 is now off for every card until it is tested. Samsung cards used to get it by\ntheir maker, but one gave errors under load in testing while other makers' cards can\npass, so test yours to turn it back on. While DDR200 is on, SCCM Retro checks for\nerrors outside games and turns it off at the next restart if a recommended card goes\nclearly over the limit or a read or write fails.\n\nPS2 games no longer start with settings notices in the top-left corner, and turning\nthe emulator stats overlay off now clears all of its lines. Loading a PS2 save state\nno longer prints memory card messages. A game can still show its own \"memory card\nremoved\" screen when the state is older than its last save; that is the game noticing\nits card was refreshed, which protects the saves on it.\n\nPSP games on the standalone PPSSPP engine now show the emulator FPS overlay. On ports,\n3DS and DraStic games, which have no counter of their own, the pause menu's\nPerformance overlay switch now shows the stats overlay with one press.\n\nDuring CPU, GPU and RAM tuning, the tuning screen now shows from the start of every\nrestart instead of the boot splash, so a running test no longer looks frozen.\n\nSCCM Retro now asks once whether to share anonymous hardware data to improve\nperformance and compatibility: chip grades, the RAM module, tuner results, the SD\ncard and its DDR200 results, the Switch model and screens. No personal data. Change\nyour answer, or see exactly what is sent, in Settings, Contributions.\n\nThe Overclocking section of Settings is now called Performance.\n\nThe SCCM Retro app on the Homebrew menu has a new icon and can add SCCM Retro to the\nHome menu (this needs sigpatches), and fresh installs from it start on the newest\nrelease.\n\nThe DDR200 test was tried on one console with a Samsung card, and the hardware data\non another. If a card freezes during the DDR200 test, hold Power to restart; it comes\nback at standard speed. The Home menu shortcut has not been tried on a console yet.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.19/sccm-retro-update-2.42.19.tar.gz",
+  "sha256": "9eefc2b28f3c28453c73108d3ad344d4aead836e3f8cedc477555b99d9b67b67",
+  "size": 273953958,
+  "buildId": "20261010174152",
+  "publishedAt": "2026-10-10T17:44:53.443Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
+  "full": {
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.19/sccm-retro-update-2.42.19-full.tar.gz",
+    "sha256": "5ab9f5f797aac0c598c0121878286b58595f8c54a6c7cbb29d39c796e6e56cda",
+    "size": 451143341
+  },
   "stable": {
     "version": "2.42.0",
     "tag": "v2.42.0",
