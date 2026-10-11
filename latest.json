@@ -1,17 +1,17 @@
 {
-  "version": "2.42.21",
-  "tag": "v2.42.21",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nThe Wind Waker HD's Build button works again. On consoles that got the port with\n2.42.20, its folder belonged to the system instead of you, and Build stopped with\n\"permission denied\". This update gives the folder back, and the console now checks\nit at every start.\n\nYou can now bring a save into the Wind Waker HD port. On the web page, open Ports and\nApps, then The Wind Waker HD, Your save. Copy to the port copies your Cemu save from\nthis console. Or add a save from elsewhere: a save folder from Cemu on a PC or from a\nWii U, its cking.sav, a .zip of the folder, or a GameCube Wind Waker save (.gci),\nwhich becomes all three Quest Logs. Every save is checked before anything changes,\nand the save it replaces is kept: Put it back restores it.\n\nThe save transfer was tested on one console, with a Cemu save and a converted\nGameCube save.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.21/sccm-retro-update-2.42.21.tar.gz",
-  "sha256": "dec4cf9392e8454eccab69674e02e560c29fa25b88a8c6870d0514df93bc735c",
-  "size": 278805851,
-  "buildId": "20261011161521",
-  "publishedAt": "2026-10-11T16:17:55.841Z",
+  "version": "2.42.22",
+  "tag": "v2.42.22",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nDeep sleep now works on the charger too, handheld. Docked, the console still just turns\nthe screen off. With deep sleep on, a sleep that only turns the screen off (the power\nbutton in a game, or docked) now disconnects your Bluetooth controllers after a minute,\nso they turn off instead of staying on all night; press a button on one to connect it\nagain. Deep sleep also waits while a Wind Waker HD build or a PC game download or install\nis running.\n\nPorts have a new option in a game's Controllers screen: Right stick as mouse. On, the\nright stick moves the mouse pointer from the start and R3 clicks; Capture turns the mouse\noff and on. Capture's mouse in a port now shows the pointer; before, it moved but could\nnot be seen.\n\nThe Wind Waker HD port is updated to the newest SwitchWakerHD, with its fixes for island\nnames drawing wrong as you arrive and for sounds and music going silent in busy moments,\nlike the storm and sea battles. Your game keeps working as it is; on the web page,\nRebuild now gets the update (about 35 minutes, plugged in).\n\nUpdating the Retro Rewind pack no longer deletes your Retro Rewind save or the files you\nadded to its Patches and MyStuff folders.\n\nDocked on a TV, the home screen header no longer cuts the IP address down to one\ncharacter when every readout is on.\n\nDeep sleep on the charger was tested for five minutes on one console, not overnight. The\ncontroller disconnect was tested without a Bluetooth controller connected. The Wind Waker\nHD update was checked on its title screen.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.22/sccm-retro-update-2.42.22.tar.gz",
+  "sha256": "b269d3373b3a1264085f7fb152a873657c4d23a56c8cbd4242c34281bcbac42e",
+  "size": 278809072,
+  "buildId": "20261011185705",
+  "publishedAt": "2026-10-11T19:01:00.123Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.21/sccm-retro-update-2.42.21-full.tar.gz",
-    "sha256": "ee73bf7d93ba9e8558dc7311613938f1dd461eae3809d05927a56349a8852b28",
-    "size": 455974857
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.22/sccm-retro-update-2.42.22-full.tar.gz",
+    "sha256": "36cdb70a35621e2df2b7b9940c7319331031aad3311d2b0b7ecfe19694edca10",
+    "size": 455986718
   },
   "stable": {
     "version": "2.42.0",
