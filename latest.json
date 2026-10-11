@@ -1,17 +1,17 @@
 {
-  "version": "2.42.20",
-  "tag": "v2.42.20",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nThe Wind Waker HD can now run as a native port, built on your console from your own\ncopy of the game: the USA or European version 0, as a Cemu archive (.wua) or a game\nfolder. Its tile is in Ports and Apps. On the web page, open Ports and Apps, then The\nWind Waker HD, add your .wua there (a copy already in your Wii U library works too)\nand press Build. The build takes about 40 minutes, then the tile plays the game, at\n30 fps on Outset Island. Hold Minus in the game for its settings. It keeps its own\nsaves, so your Wii U emulator saves do not carry over yet.\n\nWii U games use less of the processor. The emulator's graphics thread used to keep a\nwhole processor core busy while it waited for work; it now rests between frames. Wind\nWaker HD in the Wii U emulator uses about half a core less at the same frame rate,\nwhich means less heat and battery drain, and Star Fox Zero runs slightly faster.\n\nLoading a PS2 save state no longer ejects the memory card just because the game saved\nsince: games that overwrite their save, like Jak II with its auto-save, no longer say\nthe card was removed. A state still ejects the card when a save was created, deleted\nor changed size since the state was made, which protects the saves on it. Save states\nmade before this update behave as before.\n\nThe Wind Waker HD port was tested handheld on Outset Island; docked play, sailing and\nlong sessions have not been tried. The Wii U emulator sometimes closes itself in the\nfirst seconds of a game, about 1 in 5 Wind Waker HD starts in testing, before this\nupdate as well; start the game again. The PS2 memory card fix was tested with Jak II.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.20/sccm-retro-update-2.42.20.tar.gz",
-  "sha256": "a850bd1235fb7ab578b194ff44c43a01c53826463535097bdf2dc89877a6967b",
-  "size": 278802819,
-  "buildId": "20261011141424",
-  "publishedAt": "2026-10-11T14:18:04.076Z",
+  "version": "2.42.21",
+  "tag": "v2.42.21",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nThe Wind Waker HD's Build button works again. On consoles that got the port with\n2.42.20, its folder belonged to the system instead of you, and Build stopped with\n\"permission denied\". This update gives the folder back, and the console now checks\nit at every start.\n\nYou can now bring a save into the Wind Waker HD port. On the web page, open Ports and\nApps, then The Wind Waker HD, Your save. Copy to the port copies your Cemu save from\nthis console. Or add a save from elsewhere: a save folder from Cemu on a PC or from a\nWii U, its cking.sav, a .zip of the folder, or a GameCube Wind Waker save (.gci),\nwhich becomes all three Quest Logs. Every save is checked before anything changes,\nand the save it replaces is kept: Put it back restores it.\n\nThe save transfer was tested on one console, with a Cemu save and a converted\nGameCube save.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.21/sccm-retro-update-2.42.21.tar.gz",
+  "sha256": "dec4cf9392e8454eccab69674e02e560c29fa25b88a8c6870d0514df93bc735c",
+  "size": 278805851,
+  "buildId": "20261011161521",
+  "publishedAt": "2026-10-11T16:17:55.841Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.20/sccm-retro-update-2.42.20-full.tar.gz",
-    "sha256": "45d7168e7ec0e8877fd1e746ce91cb229ce0ef044772c5f12e9d09fa7883b9db",
-    "size": 455976141
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.21/sccm-retro-update-2.42.21-full.tar.gz",
+    "sha256": "ee73bf7d93ba9e8558dc7311613938f1dd461eae3809d05927a56349a8852b28",
+    "size": 455974857
   },
   "stable": {
     "version": "2.42.0",
