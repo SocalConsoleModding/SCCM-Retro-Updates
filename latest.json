@@ -1,17 +1,17 @@
 {
-  "version": "2.42.25",
-  "tag": "v2.42.25",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nHalo: Combat Evolved is now on Ports and Apps. It is a native version of the original Xbox\ngame, from the halo-ce-universal decompilation project, and it plays from your own Xbox disc.\nAdd the disc image (.iso or .xiso, or a .zip or .7z holding one) on the web page, in the Halo\nbox on the Ports and Apps tab or anywhere else: the console copies the game's maps folder out\nof it (about 1.8 GB) and deletes the image, and the Halo tile shows under Ports and Apps. In\ntesting it ran at about 58 fps.\n\nThis build of the game draws debug text on the screen. Checkpoint saves and the game's sound\nhave not been checked yet.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.25/sccm-retro-update-2.42.25.tar.gz",
-  "sha256": "ac60aaff7f5a9f928d1ed8ec909e81593c281829b51e1f013bf4659492dd56fe",
-  "size": 296995244,
-  "buildId": "20261013002031",
-  "publishedAt": "2026-10-13T00:24:00.568Z",
+  "version": "2.42.26",
+  "tag": "v2.42.26",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nInstall now in Settings, Updates shows the Installing Update screen again, with its progress\nbar and its reminder not to power off. Since 2.42.12 it showed a blank screen while the update\ndownloaded, which looked frozen.\n\nInstalling this update from Settings still shows that blank screen one last time: it is the\nversion you have now that draws it. Leave the console on. The update downloads, and the\nconsole restarts by itself to install it.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.26/sccm-retro-update-2.42.26.tar.gz",
+  "sha256": "4594e92be605335b42d0acb73c032ed00abc6283f97a6126a07694b86f21f6d0",
+  "size": 296994696,
+  "buildId": "20261013020524",
+  "publishedAt": "2026-10-13T02:08:22.775Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.25/sccm-retro-update-2.42.25-full.tar.gz",
-    "sha256": "3be5d40543bc18dc1efec973232f6c6ed357ddec955d961fb9aac02e279de723",
-    "size": 474175611
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.26/sccm-retro-update-2.42.26-full.tar.gz",
+    "sha256": "0c83b9762fafcda98be39353e8933646d939b526aa809d02c57941b7116addf5",
+    "size": 474174710
   },
   "stable": {
     "version": "2.42.0",
