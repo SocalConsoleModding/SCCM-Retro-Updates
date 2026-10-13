@@ -1,17 +1,17 @@
 {
-  "version": "2.42.26",
-  "tag": "v2.42.26",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nInstall now in Settings, Updates shows the Installing Update screen again, with its progress\nbar and its reminder not to power off. Since 2.42.12 it showed a blank screen while the update\ndownloaded, which looked frozen.\n\nInstalling this update from Settings still shows that blank screen one last time: it is the\nversion you have now that draws it. Leave the console on. The update downloads, and the\nconsole restarts by itself to install it.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.26/sccm-retro-update-2.42.26.tar.gz",
-  "sha256": "4594e92be605335b42d0acb73c032ed00abc6283f97a6126a07694b86f21f6d0",
-  "size": 296994696,
-  "buildId": "20261013020524",
-  "publishedAt": "2026-10-13T02:08:22.775Z",
+  "version": "2.42.27",
+  "tag": "v2.42.27",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nHalo: Combat Evolved moves to OpenCE's newest version and plays online. In Multiplayer, Join\nGame, Server Browser lists the public games people are hosting, and Create Game, Internet hosts\nyour own: public, or private for players with its invite link. While you host, the Halo box on\nthe web page shows your game's invite link to send to friends, and it has a Join field for a\nlink a friend sends you; the game then lists their game under Join Game, Direct Link. Games on\nthe same WiFi play over LAN as before.\n\nThe menus are now the PC version's, driven by the controller: A selects and B goes back. Some\nof their pictures are placeholders from the OpenCE project. The OpenCE project notes that\ncheckpoints saved by its earlier versions do not load in newer ones; this was not tested here.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.27/sccm-retro-update-2.42.27.tar.gz",
+  "sha256": "635198a58e8683ef3d3058bfb9c137bc33a69ba8fabcba8e5787c30655305974",
+  "size": 307189700,
+  "buildId": "20261013033153",
+  "publishedAt": "2026-10-13T03:36:20.967Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.26/sccm-retro-update-2.42.26-full.tar.gz",
-    "sha256": "0c83b9762fafcda98be39353e8933646d939b526aa809d02c57941b7116addf5",
-    "size": 474174710
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.27/sccm-retro-update-2.42.27-full.tar.gz",
+    "sha256": "7b72cc8c87c86fa08e3c3a14b7bd5fb14bbcea00256d1054c94b4ebb5153d61a",
+    "size": 484383837
   },
   "stable": {
     "version": "2.42.0",
