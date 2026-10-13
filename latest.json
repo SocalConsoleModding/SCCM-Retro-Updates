@@ -1,17 +1,17 @@
 {
-  "version": "2.42.24",
-  "tag": "v2.42.24",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nThe CPU undervolt tuner no longer fails boost steps for the voltage limit. On a console whose\nMax voltage is at or under its voltage cap, every boost step was failed as \"rail cap\" at the\n2703 MHz test, so the tuner kept the mildest boost step. If your result shows boost step 1,\nrun the CPU undervolt tuner again. First runs on Mariko consoles now start at normal step 7\nand boost step 9, where most consoles land, instead of climbing from the bottom; a step a\nconsole cannot hold steps back down on its own.\n\nRetro Rewind now checks for updates against the Retro Rewind team's own update list and\ninstalls their small update packages, so 6.13.1 (28 MB) installs, where the full download\nstill gives 6.13.0. Mario Kart Wii's menu shows the version you have, an Update row when a\nnewer one is out, and a Rebuild row only when an update changes the game's code; an update\nthat only adds tracks, sounds or menus plays right away.\n\nWii U games kept as disc images (.wux or .wud) now show their title ID once their disc key\nis added, so their shader caches can be uploaded and cleared, and graphic packs match them.\n\nThe pause menu now opens in your colors, with every row, from its first frame. Saving or\nloading a 3DS state no longer shows the game over the menu or plays its sound. The 3DS\nscreen layout is now a list to pick from, applied while the game stays paused. Quitting a\n3DS, GameCube, Wii or PS2 game no longer shows the emulator's window on the way out.\n\nPC games that answer Quit with a box of their own, like Dead Space's \"are you sure\", are\nended and remembered, and their next quit skips the box. Each PC game has a new \"When you\nquit\" option for this.\n\nSettings now scrolls at a steady 60 fps; the Display and Sound pages scrolled at 20 to 30.\n\nThe first quit of a game like Dead Space still shows its box for about a second. The tuner\nfix was tested on one console, and the new starting steps have not run on a console yet.\nQuitting with the controller's quit hotkey still shows the emulator's window.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.24/sccm-retro-update-2.42.24.tar.gz",
-  "sha256": "28b4b7ec954f6bf72f77731d4f9c2fe5cca305592f115c7321fda30de2089207",
-  "size": 295375472,
-  "buildId": "20261012181341",
-  "publishedAt": "2026-10-12T18:16:35.423Z",
+  "version": "2.42.25",
+  "tag": "v2.42.25",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nHalo: Combat Evolved is now on Ports and Apps. It is a native version of the original Xbox\ngame, from the halo-ce-universal decompilation project, and it plays from your own Xbox disc.\nAdd the disc image (.iso or .xiso, or a .zip or .7z holding one) on the web page, in the Halo\nbox on the Ports and Apps tab or anywhere else: the console copies the game's maps folder out\nof it (about 1.8 GB) and deletes the image, and the Halo tile shows under Ports and Apps. In\ntesting it ran at about 58 fps.\n\nThis build of the game draws debug text on the screen. Checkpoint saves and the game's sound\nhave not been checked yet.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.25/sccm-retro-update-2.42.25.tar.gz",
+  "sha256": "ac60aaff7f5a9f928d1ed8ec909e81593c281829b51e1f013bf4659492dd56fe",
+  "size": 296995244,
+  "buildId": "20261013002031",
+  "publishedAt": "2026-10-13T00:24:00.568Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.24/sccm-retro-update-2.42.24-full.tar.gz",
-    "sha256": "3616407d23207d1884d86663e7c927c673df22dee4c8bace5bcef0e0e434238d",
-    "size": 472558898
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.25/sccm-retro-update-2.42.25-full.tar.gz",
+    "sha256": "3be5d40543bc18dc1efec973232f6c6ed357ddec955d961fb9aac02e279de723",
+    "size": 474175611
   },
   "stable": {
     "version": "2.42.0",
