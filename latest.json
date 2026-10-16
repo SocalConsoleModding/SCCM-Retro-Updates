@@ -1,17 +1,17 @@
 {
-  "version": "2.42.30",
-  "tag": "v2.42.30",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nMelee: Adventure mode no longer crashes in its first stage. The game crashed the first time a\nblock on the Mushroom Kingdom route was hit; the launcher now fixes that in the downloaded game\nbefore each start, so a console that already has Melee gets the fix too.\n\nJoy-Cons as two Wii Remotes: a new controller type in a Wii game's Controllers menu, for the\nJoy-Cons. The right Joy-Con plays on its port and the left on the next one. Each stick is its\nremote's d-pad, each Joy-Con's motion moves its own pointer, and every button can be remapped,\nSL and SR included. Recenter is on the stick buttons. Motion and SL and SR need the Joy-Cons\ndetached.\n\nWii U motion: the GamePad's gyro works in Cemu. Handheld it follows the console, docked a\ndetached Joy-Con or Pro Controller. Motion controls and Motion source are in the game's\nControllers menu.\n\nStremio draws its pages on the GPU, so docked it answers a press about three times faster.\nSelecting a text box in Stremio opens the keyboard, and in YouTube the Minus button opens it.\nThe basic keyboard has a symbols page (the #+= key). Stremio and YouTube have the Controller\nrow and Remap that PC games have, and Set hotkeys is gone from Ports and Apps.\n\nLibrary views: each box takes its cover's shape, with bevelled edges, so covers shaped like a\ngame case no longer get grey bars in Cover flow. ZL and ZR jump to the previous and next\nletter (or date, or play time, by the sort), and a tab with more than 20 games shows a letter\nwheel as you jump. In the rolodex, Up brings the next game forward and Down goes back.\n\nSettings opens as a list of its sections: pick one and the list slides aside, and Back returns\nto the list.\n\nSaves: PSP save folders and NDS saves are in Manage Files and on the web page, to download or\ndelete. The web page's Debug tab can take a screenshot of the console's screen.\n\nFixes: docked, YouTube answers presses right away and its sticks work. Opening the in-game menu\nno longer resets a custom fan curve (it could send the fan to full speed). The screen no longer\nturns itself off a few seconds after waking the console from deep sleep. An Xbox controller's\ntriggers reach Moonlight with their whole travel instead of only on or off.\n\nNot tried yet: Joy-Con motion and SL and SR as Wii Remotes, Wii U motion in a game, a real Xbox\ncontroller's triggers, and the deep sleep fix on a real wake (it was tested in a simulation).",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.30/sccm-retro-update-2.42.30.tar.gz",
-  "sha256": "0e8d89ab599d4e0e7158770380adbae752529a97edbfecf39371f7a64ceaf710",
-  "size": 377236229,
-  "buildId": "20261015182641",
-  "publishedAt": "2026-10-15T18:30:13.872Z",
+  "version": "2.42.31",
+  "tag": "v2.42.31",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nTuning: a missed restart no longer counts as a failed test. When the modchip misses the\ntuner's restart, the console starts the Nintendo logo and the HOME Menu, and that setting was\nnever tested. The tuner now sees that and tests it again, instead of failing it and settling on\na lower RAM speed or a smaller undervolt than the console can do.\n\nTuning: in hekate's More Configs, SCCM Scratch is now called Retry Last Test. If the HOME Menu\nstarts instead of hekate, turn the console off and on and pick Retry Last Test. After a frozen,\ngarbled or black screen, hold POWER and pick Continue Tuning, as before. The Overclocking Setup\nguide shows both.\n\nTuning: the progress screen shows on every test. It sometimes failed to start, leaving a black\nscreen with the game playing, so a running test looked the same as a hung one.\n\nMario Kart Wii port: a game that closed a few seconds into every launch starts again. Its\nsettings file pointed at a folder with no disc in it, as one made on a PC or by Wheel Wizard\ndoes; the launcher now puts the path back before each start. When the game stops on an error,\nthe message says why.\n\nSCCM Retro app: a card that already has a Linux system, like L4T Ubuntu or Switchroot Fedora,\ncan take SCCM Retro in its place. Install asks first, and that choice erases the Linux\npartition; Android, Lakka and other entries stay. A card with Android left on it is now named\nas such instead of \"already has a Linux partition\", and a Switchroot Fedora card is no longer\nmistaken for SCCM Retro.\n\nNot tried yet: the tuning changes in a real tuning session (they pass the tuner's own tests),\nand installing in place of a Linux system on a real card (tested on a simulated card).",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.31/sccm-retro-update-2.42.31.tar.gz",
+  "sha256": "7e233f3f0a83e5346b4dc752d950d5fc5180db1bcd9892e4251666bb5a2e87c7",
+  "size": 377231771,
+  "buildId": "20261016035350",
+  "publishedAt": "2026-10-16T03:57:27.043Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.30/sccm-retro-update-2.42.30-full.tar.gz",
-    "sha256": "df5ffa95cd88b110c9550b14cb3c51c412e4c1790fe00aa7891f7fef6a874004",
-    "size": 554421831
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.31/sccm-retro-update-2.42.31-full.tar.gz",
+    "sha256": "4b9b9ab799b61b9d1b59b47d787920cc32e67cb0ecefe89787a6431e8cd46549",
+    "size": 554418316
   },
   "stable": {
     "version": "2.42.0",
