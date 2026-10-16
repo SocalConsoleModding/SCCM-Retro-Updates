@@ -1,17 +1,17 @@
 {
-  "version": "2.42.31",
-  "tag": "v2.42.31",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nTuning: a missed restart no longer counts as a failed test. When the modchip misses the\ntuner's restart, the console starts the Nintendo logo and the HOME Menu, and that setting was\nnever tested. The tuner now sees that and tests it again, instead of failing it and settling on\na lower RAM speed or a smaller undervolt than the console can do.\n\nTuning: in hekate's More Configs, SCCM Scratch is now called Retry Last Test. If the HOME Menu\nstarts instead of hekate, turn the console off and on and pick Retry Last Test. After a frozen,\ngarbled or black screen, hold POWER and pick Continue Tuning, as before. The Overclocking Setup\nguide shows both.\n\nTuning: the progress screen shows on every test. It sometimes failed to start, leaving a black\nscreen with the game playing, so a running test looked the same as a hung one.\n\nMario Kart Wii port: a game that closed a few seconds into every launch starts again. Its\nsettings file pointed at a folder with no disc in it, as one made on a PC or by Wheel Wizard\ndoes; the launcher now puts the path back before each start. When the game stops on an error,\nthe message says why.\n\nSCCM Retro app: a card that already has a Linux system, like L4T Ubuntu or Switchroot Fedora,\ncan take SCCM Retro in its place. Install asks first, and that choice erases the Linux\npartition; Android, Lakka and other entries stay. A card with Android left on it is now named\nas such instead of \"already has a Linux partition\", and a Switchroot Fedora card is no longer\nmistaken for SCCM Retro.\n\nNot tried yet: the tuning changes in a real tuning session (they pass the tuner's own tests),\nand installing in place of a Linux system on a real card (tested on a simulated card).",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.31/sccm-retro-update-2.42.31.tar.gz",
-  "sha256": "7e233f3f0a83e5346b4dc752d950d5fc5180db1bcd9892e4251666bb5a2e87c7",
-  "size": 377231771,
-  "buildId": "20261016035350",
-  "publishedAt": "2026-10-16T03:57:27.043Z",
+  "version": "2.42.32",
+  "tag": "v2.42.32",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNeon glow controls: on the Neon theme, Settings, Display and Sound, Appearance has a new Glow\nsection. Glow intensity (0 to 150%) sets how bright the glow is around the selected item, the\npanels and the logo, and 0% turns it off. Glow distance (50 to 150%) sets how far it spreads.\nGlow color keeps your two colors, or glows in one color you pick.\n\nThe glow around the selected game is no longer cut off in a straight line under the console tabs\nor above the footer, in the grid and in every 3D view.\n\nClean Light: the console tabs are readable over a background picture again. The tabs, the header\nbuttons and the rolodex's cards sit on solid cards, a pale band behind the header keeps the logo\nand the clock readable over a photo, the game menu's rows are white, and the icons in Reboot to\nshow on dark tiles. Clean Dark gets the same solid cards over a picture.\n\nScrolling quickly through the library in a 3D view, cover flow most of all, is smoother: the page\nno longer restyles itself on every frame, and cover flow draws only the box sides you can see.\n\nA new cover reshapes its box right away, instead of being cropped to the old cover's shape until\na restart.\n\nNot perfect yet: holding the D-pad through a long list in cover flow still runs a little under 60\nframes a second on the screen.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.32/sccm-retro-update-2.42.32.tar.gz",
+  "sha256": "36d70b0613da9989cffcd741539228d06de0c54b220eaa8390d6fe67e4fa0f8e",
+  "size": 377231610,
+  "buildId": "20261016231630",
+  "publishedAt": "2026-10-16T23:21:40.814Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.31/sccm-retro-update-2.42.31-full.tar.gz",
-    "sha256": "4b9b9ab799b61b9d1b59b47d787920cc32e67cb0ecefe89787a6431e8cd46549",
-    "size": 554418316
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.32/sccm-retro-update-2.42.32-full.tar.gz",
+    "sha256": "81d21d45bbac73c93f3a269002588a54d031dc659aaa6f03bb9cffe2666bf76d",
+    "size": 554419473
   },
   "stable": {
     "version": "2.42.0",
