@@ -1,17 +1,17 @@
 {
-  "version": "2.42.32",
-  "tag": "v2.42.32",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNeon glow controls: on the Neon theme, Settings, Display and Sound, Appearance has a new Glow\nsection. Glow intensity (0 to 150%) sets how bright the glow is around the selected item, the\npanels and the logo, and 0% turns it off. Glow distance (50 to 150%) sets how far it spreads.\nGlow color keeps your two colors, or glows in one color you pick.\n\nThe glow around the selected game is no longer cut off in a straight line under the console tabs\nor above the footer, in the grid and in every 3D view.\n\nClean Light: the console tabs are readable over a background picture again. The tabs, the header\nbuttons and the rolodex's cards sit on solid cards, a pale band behind the header keeps the logo\nand the clock readable over a photo, the game menu's rows are white, and the icons in Reboot to\nshow on dark tiles. Clean Dark gets the same solid cards over a picture.\n\nScrolling quickly through the library in a 3D view, cover flow most of all, is smoother: the page\nno longer restyles itself on every frame, and cover flow draws only the box sides you can see.\n\nA new cover reshapes its box right away, instead of being cropped to the old cover's shape until\na restart.\n\nNot perfect yet: holding the D-pad through a long list in cover flow still runs a little under 60\nframes a second on the screen.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.32/sccm-retro-update-2.42.32.tar.gz",
-  "sha256": "36d70b0613da9989cffcd741539228d06de0c54b220eaa8390d6fe67e4fa0f8e",
-  "size": 377231610,
-  "buildId": "20261016231630",
-  "publishedAt": "2026-10-16T23:21:40.814Z",
+  "version": "2.42.33",
+  "tag": "v2.42.33",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nSuper Mario 64 and Star Fox 64 join Ports and Apps as native versions by HarbourMasters: Ghostship and Starship. Each plays from your own US cartridge ROM (Star Fox 64 1.0 or 1.1): add it on the web page and the first launch prepares the game once, in about 20 seconds for Mario and about 80 for Star Fox. Frame rate in the game's Performance settings picks 30 (the original) or 60 (smoother). Mods go in on the web page as .o2r files. A Ghostship mod can carry code that runs on the console, so install only mods you trust.\n\nSuper Mario 64, Star Fox 64 and Mario Kart 64 also take .n64 and .v64 ROM files now.\n\nSleep in a game: a press of the power button in a game now puts the console into deep sleep too, not just the screen-off pause. The game's state is saved, the game is paused and muted, and when you wake the console it carries on with its own clock profile. Before, a console left in a game kept its controllers lit and was flat by morning.\n\nJak and Daxter, Jak II, Jak 3, Sly Cooper, Wind Waker HD and The Wind Waker now take the controller in port 1, instead of whichever one the game found first: attached Joy-Cons no longer take over from a Pro Controller. Wind Waker HD rumbles only that controller.\n\nController setup reads a trigger as analog on pads that report it both ways, like DualShock-style pads and the GameSir G8+, so Moonlight gets the full trigger range. Run controller setup again for such a pad.\n\nThe RAM and CPU tuners can test with the save state you pick: a Test game row on Run a Tuning Session, Set a Custom RAM Setting and the CPU undervolt's Run Tuner. Automatic still uses your largest GameCube or Wii game with a save state.\n\nNot tried yet: a real overnight sleep in a game (the wake was tested with a stand-in for the suspend), the controller order with a Pro Controller and attached Joy-Cons, and the trigger fix on a real DualShock-style pad. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.33/sccm-retro-update-2.42.33.tar.gz",
+  "sha256": "8f4ecf8a8c7c4123ebfe2538c0f189fdb00a74190f186b4790f5522b8ae819cf",
+  "size": 387978052,
+  "buildId": "20261017024803",
+  "publishedAt": "2026-10-17T02:51:35.510Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.32/sccm-retro-update-2.42.32-full.tar.gz",
-    "sha256": "81d21d45bbac73c93f3a269002588a54d031dc659aaa6f03bb9cffe2666bf76d",
-    "size": 554419473
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.33/sccm-retro-update-2.42.33-full.tar.gz",
+    "sha256": "4918fa715d798de87114b8ec44824a9c62cb23a1fedbf051c1236726f1e98e15",
+    "size": 565159651
   },
   "stable": {
     "version": "2.42.0",
