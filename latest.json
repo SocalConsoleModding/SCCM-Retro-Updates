@@ -1,17 +1,17 @@
 {
-  "version": "2.42.35",
-  "tag": "v2.42.35",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nSmoother PSP and Dreamcast: these games stuttered because only about 44 to 47 of every 60 frames reached the screen. They now run on a screen path that shows every frame once, about 59 of 60, at the same game speed. The Frame pacing setting in each game's Performance settings is Automatic by default; Full speed brings the previous path back, and VSync keeps the lock even under the stats overlay.\n\nGames that draw through Vulkan (PS1, GameCube, Wii, PS2, Wii U, 3DS, and ports such as Banjo-Kazooie and Donkey Kong 64) now hold the GPU at 845 MHz while they run. The GPU clock used to idle under a light scene and the game fell to half speed; a PSP scene that ran at 34 frames a second on the idle clock runs at 56. The floor is released when the game closes, and Battery Saver keeps its own lower ceiling. The GPU clock setting for Wii U games now says Auto (845 MHz).\n\nThe stats overlay is now drawn inside the game's picture instead of in a window over it, so SNES, N64, PSP, Dreamcast and the other smooth paths keep their frames with it on: about 58 of 60, up from 50. It also shows the game's frame rate and frame time. The pause menu's Performance overlay switch hides and shows it as before. DS and 3DS games, PC games and netplay keep the overlay window.\n\nThe SCCM Retro app no longer offers a Home menu icon on a console that runs from the system memory (sysMMC), where an installed icon can get the console banned from Nintendo's online services. On an emuMMC it is offered as before. When the app cannot tell which one the console runs from, it warns and asks for a three-second ZL + ZR hold before adding the icon. The new app ships with this update and is on the download page.\n\nNot tried yet: docked play on the new PSP and Dreamcast path and with the overlay drawn in the picture; the overlay's horizontal bar sits at the top left whatever position is set. The app's Home menu change was tried in a preview, not on a console. GameCube, Wii, 3DS and PS1 still lose about one frame in six with tear-free on; their OpenGL paths measured worse, so they stay as they are.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.35/sccm-retro-update-2.42.35.tar.gz",
-  "sha256": "a903639ce16240378d7ec2fe257b84887340ce693991298ad2da27169676f161",
-  "size": 406200756,
-  "buildId": "20261017235704",
-  "publishedAt": "2026-10-18T00:01:43.270Z",
+  "version": "2.42.36",
+  "tag": "v2.42.36",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nInstalling SCCM Retro without a PC now works on SD cards that hekate did not format. On cards formatted with GUIFormat and other Windows tools, the console stopped at hekate's logo or showed \"Wrong Image Format\" or \"Bad Data CRC\" after the SCCM Retro app restarted into the installer. The bootloader could not read the large boot files in one go from those cards; it now reads them in small pieces.\n\nAdding Linux next to your files also works on cards whose FAT32 partition does not start where hekate puts it, such as cards some tools format with the partition 32 MB in. The installer used to refuse them. The new SCCM Retro app ships with this update and is on the download page.\n\nSCCM Retro loads its own boot files the same way, so a card formatted outside hekate keeps booting after updates. Because the boot script changed, this update restarts the console once more after it installs (part 2 of 2).\n\nNot tried yet: the new loading was proven on two consoles, an original model and a V2, with a test boot script; this exact build has not booted from such a card yet.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.36/sccm-retro-update-2.42.36.tar.gz",
+  "sha256": "cd78b5070e6e9d9808dce9d0942867322c34dc49e91f7a36d0fa11010b400a38",
+  "size": 406201899,
+  "buildId": "20261018031800",
+  "publishedAt": "2026-10-18T03:23:16.279Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.35/sccm-retro-update-2.42.35-full.tar.gz",
-    "sha256": "57871e63810de883b01cdf7dc5bf135e84271d30bdfb8e9785756e4ef91d7110",
-    "size": 583395741
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.36/sccm-retro-update-2.42.36-full.tar.gz",
+    "sha256": "3e7611ea9c3c33702c2970e4223d0c31c6413346442bb22b5ac52f6de12bd7ee",
+    "size": 583397719
   },
   "stable": {
     "version": "2.42.0",
