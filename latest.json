@@ -1,17 +1,17 @@
 {
-  "version": "2.42.36",
-  "tag": "v2.42.36",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nInstalling SCCM Retro without a PC now works on SD cards that hekate did not format. On cards formatted with GUIFormat and other Windows tools, the console stopped at hekate's logo or showed \"Wrong Image Format\" or \"Bad Data CRC\" after the SCCM Retro app restarted into the installer. The bootloader could not read the large boot files in one go from those cards; it now reads them in small pieces.\n\nAdding Linux next to your files also works on cards whose FAT32 partition does not start where hekate puts it, such as cards some tools format with the partition 32 MB in. The installer used to refuse them. The new SCCM Retro app ships with this update and is on the download page.\n\nSCCM Retro loads its own boot files the same way, so a card formatted outside hekate keeps booting after updates. Because the boot script changed, this update restarts the console once more after it installs (part 2 of 2).\n\nNot tried yet: the new loading was proven on two consoles, an original model and a V2, with a test boot script; this exact build has not booted from such a card yet.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.36/sccm-retro-update-2.42.36.tar.gz",
-  "sha256": "cd78b5070e6e9d9808dce9d0942867322c34dc49e91f7a36d0fa11010b400a38",
-  "size": 406201899,
-  "buildId": "20261018031800",
-  "publishedAt": "2026-10-18T03:23:16.279Z",
+  "version": "2.42.37",
+  "tag": "v2.42.37",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nCopy games to the console over USB: plug it into a computer with a USB-C cable and it shows up as SCCM Retro, with Import, Saves, Save states and Screenshots folders. Games, BIOS files, cheats and saves dropped in Import sort themselves like a web upload. With a USB 3 port and cable it copies at about 90 MB/s, against 25 at USB 2, and a notice says which one you got. Settings, Manage Files has the switches. The kernel changed for this, so the update restarts the console once more after it installs (part 2 of 2).\n\nGameCube and Wii saves can come from anywhere: Nintendont memory cards (.raw), single saves (.gci, .gcs, .sav) and Wii data.bin files go on the web page's Saves tab or in the import folder, and land where Dolphin reads them. Syncthing, on the web page's Accounts tab, keeps your saves the same on the console and a PC or phone; it pauses while a game runs.\n\nPair your RomM server on the web page's Accounts tab and send its games to the console. PS2 mods that replace a game's files, such as Persona 3 FES mods, get a mod folder slot per game on the web page and an on and off switch in the game's Patches menu.\n\nGameCube and Wii games show their real names from the disc. Any game can be hidden from the library, from Manage Files or the web page. DS cheats can be added on the web page, and Game Boy games get a color palette choice in the pre-launch menu. Mario Kart Wii PAL no longer starts at 30 fps on fresh installs.\n\nAlso: holding R3 with the right stick as the mouse holds the click, so you can drag. Deep sleep waits for downloads, not only uploads. The SCCM Retro app installs hekate on a card that has none; the new app comes with this update and is on the download page. On the original Switch, console info shows the stock 1125 mV RAM voltage.\n\nNot tried yet: USB transfer was tested on an OLED with Windows 11; Mac and Linux computers, the original Switch (USB 2 only there for now) and the cable plugged in the other way are untested, and charging from a computer is slow. PS2 mods were tried with a stand-in game, RomM with a stand-in server and Syncthing with a second copy on the console.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.37/sccm-retro-update-2.42.37.tar.gz",
+  "sha256": "0310971307cef02bcd16dd8c6dd28d7ffaf8599718c99cd5ef1c28855685bd10",
+  "size": 406473339,
+  "buildId": "20261019004544",
+  "publishedAt": "2026-10-19T00:51:18.128Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.36/sccm-retro-update-2.42.36-full.tar.gz",
-    "sha256": "3e7611ea9c3c33702c2970e4223d0c31c6413346442bb22b5ac52f6de12bd7ee",
-    "size": 583397719
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.37/sccm-retro-update-2.42.37-full.tar.gz",
+    "sha256": "ba349bfd9f87625596ef1f5336c0bef0de385c5549ecf9942243b07a0aa96286",
+    "size": 583643346
   },
   "stable": {
     "version": "2.42.0",
