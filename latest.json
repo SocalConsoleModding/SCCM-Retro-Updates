@@ -1,17 +1,17 @@
 {
-  "version": "2.42.37",
-  "tag": "v2.42.37",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nCopy games to the console over USB: plug it into a computer with a USB-C cable and it shows up as SCCM Retro, with Import, Saves, Save states and Screenshots folders. Games, BIOS files, cheats and saves dropped in Import sort themselves like a web upload. With a USB 3 port and cable it copies at about 90 MB/s, against 25 at USB 2, and a notice says which one you got. Settings, Manage Files has the switches. The kernel changed for this, so the update restarts the console once more after it installs (part 2 of 2).\n\nGameCube and Wii saves can come from anywhere: Nintendont memory cards (.raw), single saves (.gci, .gcs, .sav) and Wii data.bin files go on the web page's Saves tab or in the import folder, and land where Dolphin reads them. Syncthing, on the web page's Accounts tab, keeps your saves the same on the console and a PC or phone; it pauses while a game runs.\n\nPair your RomM server on the web page's Accounts tab and send its games to the console. PS2 mods that replace a game's files, such as Persona 3 FES mods, get a mod folder slot per game on the web page and an on and off switch in the game's Patches menu.\n\nGameCube and Wii games show their real names from the disc. Any game can be hidden from the library, from Manage Files or the web page. DS cheats can be added on the web page, and Game Boy games get a color palette choice in the pre-launch menu. Mario Kart Wii PAL no longer starts at 30 fps on fresh installs.\n\nAlso: holding R3 with the right stick as the mouse holds the click, so you can drag. Deep sleep waits for downloads, not only uploads. The SCCM Retro app installs hekate on a card that has none; the new app comes with this update and is on the download page. On the original Switch, console info shows the stock 1125 mV RAM voltage.\n\nNot tried yet: USB transfer was tested on an OLED with Windows 11; Mac and Linux computers, the original Switch (USB 2 only there for now) and the cable plugged in the other way are untested, and charging from a computer is slow. PS2 mods were tried with a stand-in game, RomM with a stand-in server and Syncthing with a second copy on the console.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.37/sccm-retro-update-2.42.37.tar.gz",
-  "sha256": "0310971307cef02bcd16dd8c6dd28d7ffaf8599718c99cd5ef1c28855685bd10",
-  "size": 406473339,
-  "buildId": "20261019004544",
-  "publishedAt": "2026-10-19T00:51:18.128Z",
+  "version": "2.42.38",
+  "tag": "v2.42.38",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nArcade games: a new Arcade tab plays MAME romsets. Add them from the web page (Files, ROMs) as .zip files named by their MAME short name, like sf2.zip; they stay zipped. The first Arcade launch downloads the arcade emulator, about 113 MB.\n\nScreen filters: CRT, scanline and LCD looks per game, in the pre-launch menu's Screen section, for the RetroArch systems, PS1, Saturn and Dreamcast. The aspect ratio row also has Pixel perfect.\n\nThe performance overlay holds still: every reading keeps its place and width, it no longer flickers, and CPU, GPU and RAM are 2.5 times bigger.\n\nPS1 controllers work in every game with the DualShock on: it starts in digital mode like the real one, and a game that uses the sticks switches it on itself (or hold L + R + Minus). A new Start in analog mode row covers a game that never does.\n\nMoonlight gets Video decoder, Video codec and Bitrate rows, and a Keyboard and mouse controller choice with the mouse on either stick. It no longer closes at start while the performance overlay is on.\n\nHandheld profile: Settings, Performance, Handheld Profile adds a second boot entry with a lower RAM clock and CPU and GPU caps, for battery life. Restart into it from that page, the Reboot to menu or the SCCM Retro app.\n\nTuning: the CPU undervolt screen says so after a minute without word from the tuner, with the address to watch it from a phone, and a forced restart during a test runs that step again instead of failing it. New RAM sweeps and timing sessions use 640 mV VDDQ on every Mariko memory chip, and Erista keeps 1175 mV VDD2 as its floor.\n\nAlso: Dolphin's Quit waits for a save state you just made. PS2 save states get an upstream fix for loading them. The SCCM Retro app installs over a LAN adapter in the dock with no WiFi saved and can start the Handheld profile; the new app comes with this update and is on the download page.\n\nNot tried yet: arcade games with real romsets, restarting into the Handheld profile, a forced restart during a full CPU undervolt run, a Moonlight stream (the options were checked with no PC to stream from) and a wired install.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.38/sccm-retro-update-2.42.38.tar.gz",
+  "sha256": "3b0c07b3de1ea1179d6979971e88cfbb46cf160010868a3adf52639e207670a0",
+  "size": 406865920,
+  "buildId": "20261021162109",
+  "publishedAt": "2026-10-21T16:24:58.590Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.37/sccm-retro-update-2.42.37-full.tar.gz",
-    "sha256": "ba349bfd9f87625596ef1f5336c0bef0de385c5549ecf9942243b07a0aa96286",
-    "size": 583643346
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.38/sccm-retro-update-2.42.38-full.tar.gz",
+    "sha256": "016ad7dc5d2bd39fd5034207799355c8e4658fb961f6d4f58a769d6c6308320c",
+    "size": 584048640
   },
   "stable": {
     "version": "2.42.0",
