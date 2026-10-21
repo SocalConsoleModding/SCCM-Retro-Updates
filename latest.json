@@ -1,17 +1,17 @@
 {
-  "version": "2.42.38",
-  "tag": "v2.42.38",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nArcade games: a new Arcade tab plays MAME romsets. Add them from the web page (Files, ROMs) as .zip files named by their MAME short name, like sf2.zip; they stay zipped. The first Arcade launch downloads the arcade emulator, about 113 MB.\n\nScreen filters: CRT, scanline and LCD looks per game, in the pre-launch menu's Screen section, for the RetroArch systems, PS1, Saturn and Dreamcast. The aspect ratio row also has Pixel perfect.\n\nThe performance overlay holds still: every reading keeps its place and width, it no longer flickers, and CPU, GPU and RAM are 2.5 times bigger.\n\nPS1 controllers work in every game with the DualShock on: it starts in digital mode like the real one, and a game that uses the sticks switches it on itself (or hold L + R + Minus). A new Start in analog mode row covers a game that never does.\n\nMoonlight gets Video decoder, Video codec and Bitrate rows, and a Keyboard and mouse controller choice with the mouse on either stick. It no longer closes at start while the performance overlay is on.\n\nHandheld profile: Settings, Performance, Handheld Profile adds a second boot entry with a lower RAM clock and CPU and GPU caps, for battery life. Restart into it from that page, the Reboot to menu or the SCCM Retro app.\n\nTuning: the CPU undervolt screen says so after a minute without word from the tuner, with the address to watch it from a phone, and a forced restart during a test runs that step again instead of failing it. New RAM sweeps and timing sessions use 640 mV VDDQ on every Mariko memory chip, and Erista keeps 1175 mV VDD2 as its floor.\n\nAlso: Dolphin's Quit waits for a save state you just made. PS2 save states get an upstream fix for loading them. The SCCM Retro app installs over a LAN adapter in the dock with no WiFi saved and can start the Handheld profile; the new app comes with this update and is on the download page.\n\nNot tried yet: arcade games with real romsets, restarting into the Handheld profile, a forced restart during a full CPU undervolt run, a Moonlight stream (the options were checked with no PC to stream from) and a wired install.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.38/sccm-retro-update-2.42.38.tar.gz",
-  "sha256": "3b0c07b3de1ea1179d6979971e88cfbb46cf160010868a3adf52639e207670a0",
-  "size": 406865920,
-  "buildId": "20261021162109",
-  "publishedAt": "2026-10-21T16:24:58.590Z",
+  "version": "2.42.39",
+  "tag": "v2.42.39",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nGameCube and Wii run faster: Dolphin gets ARM64 JIT and graphics FIFO speedups ported from nezumiiruka's Switch port of Dolphin. On our test console, Wind Waker ran about 5 percent faster, and Melee and Mario Kart Wii about 20 percent faster in their attract modes. Save states made before the update still load.\n\nThe new Dolphin takes over the next time you restart the console after this update. If it will not start on your console, the old one stays.\n\nNot tried yet: the new Dolphin has run on one console so far, through days of play and test runs, and not yet on an original Switch. If Dolphin crashes or freezes where it did not before, post a Debug bundle in #bug-reports.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.39/sccm-retro-update-2.42.39.tar.gz",
+  "sha256": "92d0ea9c468db5f0cba45a5f952d236e97c4839095a2135c33f2fc92a08498cb",
+  "size": 429137920,
+  "buildId": "20261021172326",
+  "publishedAt": "2026-10-21T17:27:25.910Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.38/sccm-retro-update-2.42.38-full.tar.gz",
-    "sha256": "016ad7dc5d2bd39fd5034207799355c8e4658fb961f6d4f58a769d6c6308320c",
-    "size": 584048640
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.39/sccm-retro-update-2.42.39-full.tar.gz",
+    "sha256": "2576a924702c15688bca6542e6f5c5b3ec8a144ca6be179fb1321fb98161b8ef",
+    "size": 606330880
   },
   "stable": {
     "version": "2.42.0",
