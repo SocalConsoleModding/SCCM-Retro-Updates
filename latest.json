@@ -1,17 +1,17 @@
 {
-  "version": "2.42.45",
-  "tag": "v2.42.45",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPlay Online is back on the game menu. The 2.42.44 notes described it, but the menu row that opens it had been dropped from the launcher in September and the release shipped without it. Open a GameCube, Wii, NES, SNES, Genesis or PlayStation game's menu and choose Play Online: Host shows an 8-character code; the other player chooses Join, types the code, and the host presses Start when the roster shows them. Everything else about online play is as the 2.42.44 notes described it.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.45/sccm-retro-update-2.42.45.tar.gz",
-  "sha256": "e64d7686918a945751ce7fab13f418d8f5e2b04c4edac19f452b375979ca52d6",
+  "version": "2.42.46",
+  "tag": "v2.42.46",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPlay Online works from the game menu now. In 2.42.45 the row was there but pressing it did nothing; it opens the online menu with Host and Join. Open a GameCube, Wii, NES, SNES, Genesis or PlayStation game's menu and choose Play Online: Host shows an 8-character code; the other player chooses Join, types the code, and the host presses Start when the roster shows them. Everything else about online play is as the 2.42.44 notes described it.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.46/sccm-retro-update-2.42.46.tar.gz",
+  "sha256": "d38fcb9db18b73467c029cec134c9858cfefe3716f90705e2a77a2215c56418f",
   "size": 430530560,
-  "buildId": "20261027011925",
-  "publishedAt": "2026-10-27T01:23:15.280Z",
+  "buildId": "20261027015701",
+  "publishedAt": "2026-10-27T02:00:43.976Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.45/sccm-retro-update-2.42.45-full.tar.gz",
-    "sha256": "db161722481b2c2730cd5c755537d525d1d6ab8f5ecc184ecc2afb67abdcd2ab",
-    "size": 607723520
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.46/sccm-retro-update-2.42.46-full.tar.gz",
+    "sha256": "b0af9fc83ed2c4b3abd3f8363fe86360adafbcfb33f0f3b04162aa5fce757e67",
+    "size": 607713280
   },
   "stable": {
     "version": "2.42.0",
