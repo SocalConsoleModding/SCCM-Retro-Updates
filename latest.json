@@ -1,17 +1,17 @@
 {
-  "version": "2.42.44",
-  "tag": "v2.42.44",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nOnline play is on. GameCube and Wii games through Dolphin, and NES, SNES, Genesis and PlayStation games through RetroArch, can be played with another SCCM Retro console over the internet. Open a game's menu and choose Play Online. Host shows an 8-character code; the other player chooses Join, types the code, and the host presses Start when the roster shows them. Both consoles need the same game dump; the menu checks this before the match starts. The pause menu shows the players and the code during a session, and Leave ends it.\n\nWhat to expect: GameCube and Wii sessions connect the two consoles directly, which works between two ordinary home connections but not from a mobile hotspot or an internet provider that uses carrier-grade NAT; those players can still play NES, SNES, Genesis and PlayStation, which go through SCCM Retro's own relay and work anywhere. PlayStation online uses a different emulator core than offline play, so it runs at the original resolution. If the host leaves, the other player returns to the menu within a second; if the host's console crashes, it takes about 20 seconds. Cheats are off during online play. N64, Dreamcast, PSP, DS, 3DS, PS2 and Wii U have no online play.\n\nFind other players in the community Discord, in the channel for online play: post the game, the time, and your code.\n\nNew and lightly tested: online play was checked between two consoles on different networks by the developer; this is its first release to other people. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.44/sccm-retro-update-2.42.44.tar.gz",
-  "sha256": "9b9f56a4f51f780d05872c73f174a359706e13612888c0b42b7c02d038629464",
+  "version": "2.42.45",
+  "tag": "v2.42.45",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPlay Online is back on the game menu. The 2.42.44 notes described it, but the menu row that opens it had been dropped from the launcher in September and the release shipped without it. Open a GameCube, Wii, NES, SNES, Genesis or PlayStation game's menu and choose Play Online: Host shows an 8-character code; the other player chooses Join, types the code, and the host presses Start when the roster shows them. Everything else about online play is as the 2.42.44 notes described it.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.45/sccm-retro-update-2.42.45.tar.gz",
+  "sha256": "e64d7686918a945751ce7fab13f418d8f5e2b04c4edac19f452b375979ca52d6",
   "size": 430530560,
-  "buildId": "20261026224807",
-  "publishedAt": "2026-10-26T22:51:44.920Z",
+  "buildId": "20261027011925",
+  "publishedAt": "2026-10-27T01:23:15.280Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.44/sccm-retro-update-2.42.44-full.tar.gz",
-    "sha256": "bc97252aa5a74ce192de2c3eb6eecbb95d02d7b3bfe22e85f0b559ee2b114601",
-    "size": 607713280
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.45/sccm-retro-update-2.42.45-full.tar.gz",
+    "sha256": "db161722481b2c2730cd5c755537d525d1d6ab8f5ecc184ecc2afb67abdcd2ab",
+    "size": 607723520
   },
   "stable": {
     "version": "2.42.0",
