@@ -1,17 +1,17 @@
 {
-  "version": "2.42.46",
-  "tag": "v2.42.46",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPlay Online works from the game menu now. In 2.42.45 the row was there but pressing it did nothing; it opens the online menu with Host and Join. Open a GameCube, Wii, NES, SNES, Genesis or PlayStation game's menu and choose Play Online: Host shows an 8-character code; the other player chooses Join, types the code, and the host presses Start when the roster shows them. Everything else about online play is as the 2.42.44 notes described it.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.46/sccm-retro-update-2.42.46.tar.gz",
-  "sha256": "d38fcb9db18b73467c029cec134c9858cfefe3716f90705e2a77a2215c56418f",
-  "size": 430530560,
-  "buildId": "20261027015701",
-  "publishedAt": "2026-10-27T02:00:43.976Z",
+  "version": "2.42.47",
+  "tag": "v2.42.47",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nUploads from the web page: when an upload stops moving, because the phone's screen locked or the WiFi dropped, the page now tries again by itself. If it still cannot go on, it says the upload stopped and why that usually happens, with Try again, which picks up where it stopped. Every upload is written to a log on the console, and the debug report includes it, so a stuck upload can be traced.\n\nHandheld, only the power button wakes the console. A button press or a touch no longer lights the screen after it turns itself off, or wakes the console from the power button's sleep, so a console in its case stays asleep. Docked, a controller still wakes it, since the power button can be out of reach.\n\nCheats on the web page: add many at once. In the Cheats section, pick the game, choose A list of cheats, then paste a list from a cheat site or choose a cheat file (.txt, .ini, .cht or .pnach). The page shows what it found before adding anything and skips codes the game already has. They are added switched off; turn them on from the game's Cheats menu. This works for GameCube and Wii, DS, PS2 and the RetroArch systems.\n\nStremio plays video on the console's hardware decoder, which uses about a third of the processor it took before. If a stream misbehaves, turn off Hardware video decoding in Stremio's menu.\n\nPlayStation games on PCSX ReARMed can render at twice the resolution: set Internal resolution to 2x in the game's menu. Original stays the default.\n\nStandalone PPSSPP: Fast-forward from the pause menu works. It did nothing before.\n\nPC games: a disc image over 4 GB can be added now. It goes to the Linux partition and is unpacked there, since the SD card cannot hold a file that big.\n\nManage Files lists 3DS and Wii U saves by the game's name instead of a code, and 3DS save states show their slot.\n\nA Wii U disc image uploaded together with its .key is no longer flagged as a duplicate and skipped.\n\nNew and lightly tested: the upload retries were checked by cutting the connection on purpose, not yet with a phone locking mid-upload. Waking with a controller while docked was not checked with a dock. Stremio's hardware decoding was checked with test streams, not Plex yet. The big PC disc was a test disc, not a real game's installer. 3DS save names were checked with .3ds and .cci games, Wii U with a .wux.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.47/sccm-retro-update-2.42.47.tar.gz",
+  "sha256": "6ae9bb583f138f766219dcddd55e3476d05fdc0c385e8db8cf767e234dfe7917",
+  "size": 430561280,
+  "buildId": "20261029004043",
+  "publishedAt": "2026-10-29T00:45:19.936Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.46/sccm-retro-update-2.42.46-full.tar.gz",
-    "sha256": "b0af9fc83ed2c4b3abd3f8363fe86360adafbcfb33f0f3b04162aa5fce757e67",
-    "size": 607713280
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.47/sccm-retro-update-2.42.47-full.tar.gz",
+    "sha256": "a66ae45d5801500e35517ef12d7c1856ee949160bece99f8d73d3b463152df9c",
+    "size": 607744000
   },
   "stable": {
     "version": "2.42.0",
