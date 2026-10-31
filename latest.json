@@ -1,17 +1,17 @@
 {
-  "version": "2.42.48",
-  "tag": "v2.42.48",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nRPG Maker XP, VX and VX Ace games run natively in PC Games. Add the game's folder on the web page like any PC game: SCCM Retro sees that it is an RPG Maker game and runs it with mkxp-z instead of as a Windows program, full screen, with the controller (A confirms, B cancels, X or Plus opens the menu, Y runs in many games). If a game does not work that way, set RPG Maker player to Windows in its menu. Many games need RPG Maker's RTP, its shared graphics and sounds, which SCCM Retro cannot include: install it on a computer (a free download from rpgmakerweb.com) and copy its folder (for example Standard) to SCCM-Retro/bios/rpgmaker on the SD card. A game that stops for a missing RTP file closes and says which one. MIDI music plays only with a SoundFont (.sf2) in that same folder.\n\nInstalling SCCM Retro with the SCCM Retro app: the install could stop on hekate's logo on some SD cards (FAT32 cards not formatted by hekate). The app's installer reads its files in small pieces again, as it did from 2.42.36, so those cards install. The app is updated on consoles and on the download page.\n\nDOS games: a zip with a disk image inside (an .img, for example) is no longer split up. The whole zip goes to Unsorted with DOS suggested, and when it starts, DOSBox Pure offers both the disk image and the game's programs.\n\nWhen a PC game needs its program chosen first, the message now shows the web page's address.\n\nOn Stable releases only, checking for updates now tells you when Latest Updates has a newer version, instead of just saying you are up to date.\n\nThe debug report includes more about controllers and per-game audio, to help with two Joy-Con pairs and silent PS2 games.\n\nNew and lightly tested: RPG Maker support was checked with test games made for it, not a real RPG Maker game yet. The installer fix was checked against the earlier fix's own files and the app's tests, not with a real install on an affected card.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.48/sccm-retro-update-2.42.48.tar.gz",
-  "sha256": "e4e71c513558fb5f337e135cdc58b700a970444780e42c3971e250a872402fc3",
-  "size": 439992320,
-  "buildId": "20261030170320",
-  "publishedAt": "2026-10-30T17:07:51.240Z",
+  "version": "2.42.49",
+  "tag": "v2.42.49",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPS2 sound: some consoles lost all PS2 sound after switching between the two PS2 engines, on both engines from then on. The console's sound system remembers a volume, a mute and an output for each app, and both PS2 engines go by one name, so one bad memory silenced both. Games now start without that memory, at full volume on the output in use.\n\nSound follows the output: when the console switches between the speaker, the TV, headphones and Bluetooth, playing sound now follows the switch without being tied to the old output. Before, a game could reopen on the output it used last time, for example the speaker while docked.\n\nDeep sleep: the line under Deep sleep in Settings now covers everything since you last used the console: how long, the battery used, how often it woke by itself (charger or USB-C) and how long it stayed awake with the screen off, and why. Sleeping in a game, a wake nobody pressed now goes straight back to sleep; before, the game went on running, sound included, behind the dark screen.\n\nSet a Custom RAM Setting: when Test it cannot start, its message now shows under the button. It used to appear at the bottom of the page, out of sight, so the button seemed to do nothing.\n\nPC game uploads from the web page: the page no longer reloads itself while a PC game is uploading, which hid the upload and its Try again. Sending a game to the SD card again after a stopped upload no longer fails every retry with \"did not arrive complete\".\n\n3DS saves on the web page show the game's name even when the game is not on the console, and for compressed 3DS games too.\n\nThe debug report has a section on USB file transfer, for when a computer does not see the console.\n\nNew and lightly tested: the deep sleep change was not tried with a real wake by the charger, and the sound change was not tried docked.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.49/sccm-retro-update-2.42.49.tar.gz",
+  "sha256": "f1dc57c746ae5c866fe1ac0cd092de3d5c25bf40652b1e63ee6b0a7166867377",
+  "size": 440064000,
+  "buildId": "20261031205308",
+  "publishedAt": "2026-10-31T20:57:02.664Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.48/sccm-retro-update-2.42.48-full.tar.gz",
-    "sha256": "91501bf3a97775eb71871736daeba66216cbce4478440993514c2e0411cb2ee5",
-    "size": 617185280
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.49/sccm-retro-update-2.42.49-full.tar.gz",
+    "sha256": "95534a4148d2f41cf6197c663ea56a97b1ba40bec489e001aa920e30c335bc58",
+    "size": 617236480
   },
   "stable": {
     "version": "2.42.0",
