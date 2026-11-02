@@ -1,17 +1,17 @@
 {
-  "version": "2.42.49",
-  "tag": "v2.42.49",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nPS2 sound: some consoles lost all PS2 sound after switching between the two PS2 engines, on both engines from then on. The console's sound system remembers a volume, a mute and an output for each app, and both PS2 engines go by one name, so one bad memory silenced both. Games now start without that memory, at the console's volume on the output in use.\n\nSound follows the output: when the console switches between the speaker, the TV, headphones and Bluetooth, playing sound now follows the switch without being tied to the old output. Before, a game could reopen on the output it used last time, for example the speaker while docked.\n\nDeep sleep: the line under Deep sleep in Settings now covers everything since you last used the console: how long, the battery used, how often it woke by itself (charger or USB-C) and how long it stayed awake with the screen off, and why. Sleeping in a game, a wake nobody pressed now goes straight back to sleep; before, the game went on running, sound included, behind the dark screen.\n\nSet a Custom RAM Setting: when Test it cannot start, its message now shows under the button. It used to appear at the bottom of the page, out of sight, so the button seemed to do nothing.\n\nPC game uploads from the web page: the page no longer reloads itself while a PC game is uploading, which hid the upload and its Try again. Sending a game to the SD card again after a stopped upload no longer fails every retry with \"did not arrive complete\".\n\n3DS saves on the web page show the game's name even when the game is not on the console, and for compressed 3DS games too.\n\nThe debug report has a section on USB file transfer, for when a computer does not see the console.\n\nNew and lightly tested: the deep sleep change was not tried with a real wake by the charger, and the sound change was not tried docked.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.49/sccm-retro-update-2.42.49.tar.gz",
-  "sha256": "f1dc57c746ae5c866fe1ac0cd092de3d5c25bf40652b1e63ee6b0a7166867377",
+  "version": "2.42.50",
+  "tag": "v2.42.50",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nMoonlight motion: Moonlight can now send gyro and tilt to the PC you stream from, for games that use motion. Handheld it uses the console's own motion sensor; with a Pro Controller or detached Joy-Cons it uses the controller's. The PC has to run Sunshine for motion to go through.\n\nDraStic touch in portrait: with Handheld orientation set to Portrait, DraStic took touches only near the middle of the screen, and they landed in the wrong place. Taps now land where you touch, in portrait as in landscape.\n\nVertical arcade games: arcade games now have the Handheld orientation setting (Performance settings, General). Portrait turns the screen for vertical shooters, handheld only, and goes back when you quit. A grip that holds the controllers upright works best, since attached Joy-Cons keep their usual directions.\n\nPlayStation Remote Play: a new tile in Ports and Apps (add it from Add ports and apps) streams your PS4 or PS5 with chiaki-ng. Its first start downloads it, then you link your console with its PIN; the on-screen keyboards in the pause menu type the PIN and the PSN sign-in. Video is decoded in software here, so 720p is the setting to pick.\n\nPC game mods: each PC game on the web page has a DLL overrides button, for mods that ship their own DLL (a controller fix's dinput8, a graphics mod's d3d9). Type the DLL names and the game loads the mod's copy from its folder from the next launch.\n\nCommunity settings: a game's first launch, and Apply recommended settings, no longer switch a game to AetherSX2, melonDS or RetroArch's PSP emulator, and no longer take settings measured on them. Many PS2 games went to AetherSX2 on their first launch this way. A recommendation also keeps the emulator you chose for that console instead of putting the game back on the default one. Games already switched keep the emulator they have; change it in the game's Performance settings.\n\nNew and lightly tested: Moonlight motion was not tried in a real stream, PlayStation Remote Play was not linked to a real console, and no vertical arcade game was tried in portrait.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.50/sccm-retro-update-2.42.50.tar.gz",
+  "sha256": "02ec98fd5e6f8747ec81a7340250e1035c242558938648f76015570a796fa019",
   "size": 440064000,
-  "buildId": "20261031205308",
-  "publishedAt": "2026-10-31T20:57:02.664Z",
+  "buildId": "20261102234539",
+  "publishedAt": "2026-11-02T23:49:29.334Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.49/sccm-retro-update-2.42.49-full.tar.gz",
-    "sha256": "95534a4148d2f41cf6197c663ea56a97b1ba40bec489e001aa920e30c335bc58",
-    "size": 617236480
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.50/sccm-retro-update-2.42.50-full.tar.gz",
+    "sha256": "caa0c91758d4a3ec343754bfa7a74b7d87156ebd5cba3afc399ff4b85bc56114",
+    "size": 617246720
   },
   "stable": {
     "version": "2.42.0",
