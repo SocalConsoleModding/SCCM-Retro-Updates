@@ -1,17 +1,17 @@
 {
-  "version": "2.42.50",
-  "tag": "v2.42.50",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nMoonlight motion: Moonlight can now send gyro and tilt to the PC you stream from, for games that use motion. Handheld it uses the console's own motion sensor; with a Pro Controller or detached Joy-Cons it uses the controller's. The PC has to run Sunshine for motion to go through.\n\nDraStic touch in portrait: with Handheld orientation set to Portrait, DraStic took touches only near the middle of the screen, and they landed in the wrong place. Taps now land where you touch, in portrait as in landscape.\n\nVertical arcade games: arcade games now have the Handheld orientation setting (Performance settings, General). Portrait turns the screen for vertical shooters, handheld only, and goes back when you quit. A grip that holds the controllers upright works best, since attached Joy-Cons keep their usual directions.\n\nPlayStation Remote Play: a new tile in Ports and Apps (add it from Add ports and apps) streams your PS4 or PS5 with chiaki-ng. Its first start downloads it, then you link your console with its PIN; the on-screen keyboards in the pause menu type the PIN and the PSN sign-in. Video is decoded in software here, so 720p is the setting to pick.\n\nPC game mods: each PC game on the web page has a DLL overrides button, for mods that ship their own DLL (a controller fix's dinput8, a graphics mod's d3d9). Type the DLL names and the game loads the mod's copy from its folder from the next launch.\n\nCommunity settings: a game's first launch, and Apply recommended settings, no longer switch a game to AetherSX2, melonDS or RetroArch's PSP emulator, and no longer take settings measured on them. Many PS2 games went to AetherSX2 on their first launch this way. A recommendation also keeps the emulator you chose for that console instead of putting the game back on the default one. Games already switched keep the emulator they have; change it in the game's Performance settings.\n\nNew and lightly tested: Moonlight motion was not tried in a real stream, PlayStation Remote Play was not linked to a real console, and no vertical arcade game was tried in portrait.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.50/sccm-retro-update-2.42.50.tar.gz",
-  "sha256": "02ec98fd5e6f8747ec81a7340250e1035c242558938648f76015570a796fa019",
-  "size": 440064000,
-  "buildId": "20261102234539",
-  "publishedAt": "2026-11-02T23:49:29.334Z",
+  "version": "2.42.51",
+  "tag": "v2.42.51",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nCall of Duty: Black Ops II: AlvaroEPena's bo2-360-nx port of the Xbox 360 game, built on your console from your own copy. Zombies, Multiplayer and Campaign each get a tile in Ports and Apps once built. Nothing from the game is downloaded: the build makes it from your files, on the console.\n\nTo build it, open the web page (the address on the home screen), go to Ports and Apps, Call of Duty: Black Ops II, and add to Game files with Files: your disc (the .iso, or the folder extracted from it), Title Update 18 (its package, a file named like tu00000001_00000000) and any DLC packages, each unpacked from its .zip or .7z on your computer first. Then tick the modes and press Build.\n\nA build takes hours, and the page shows about how long for the modes you tick: about 1 hour 40 minutes for Zombies and about 5 hours 40 minutes for all three, longer with each DLC map pack. The console has to stay on and plugged in, with about 25 GB free. A mode can be added later, and a build that stops carries on where it stopped when you press Build again.\n\nNew and lightly tested: all three modes were built from a real disc and update and played with a virtual Xbox controller on one console. Joy-Cons, DLC maps, system link between consoles and playing docked were not tried.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.51/sccm-retro-update-2.42.51.tar.gz",
+  "sha256": "43ee851c3b2a3b43dabf0da61d5f771a4a3fe52cda9cbe498031149e80990077",
+  "size": 440074240,
+  "buildId": "20261103174532",
+  "publishedAt": "2026-11-03T17:51:01.552Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.50/sccm-retro-update-2.42.50-full.tar.gz",
-    "sha256": "caa0c91758d4a3ec343754bfa7a74b7d87156ebd5cba3afc399ff4b85bc56114",
-    "size": 617246720
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.51/sccm-retro-update-2.42.51-full.tar.gz",
+    "sha256": "921af564ccfce2d6a7624fa9eb43840d58fa2ae4f74cb649a075d3789f96ee0c",
+    "size": 617267200
   },
   "stable": {
     "version": "2.42.0",
