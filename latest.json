@@ -1,17 +1,17 @@
 {
-  "version": "2.42.51",
-  "tag": "v2.42.51",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nCall of Duty: Black Ops II: AlvaroEPena's bo2-360-nx port of the Xbox 360 game, built on your console from your own copy. Zombies, Multiplayer and Campaign each get a tile in Ports and Apps once built. Nothing from the game is downloaded: the build makes it from your files, on the console.\n\nTo build it, open the web page (the address on the home screen), go to Ports and Apps, Call of Duty: Black Ops II, and add to Game files with Files: your disc (the .iso, or the folder extracted from it), Title Update 18 (its package, a file named like tu00000001_00000000) and any DLC packages, each unpacked from its .zip or .7z on your computer first. Then tick the modes and press Build.\n\nA build takes hours, and the page shows about how long for the modes you tick: about 1 hour 40 minutes for Zombies and about 5 hours 40 minutes for all three, longer with each DLC map pack. The console has to stay on and plugged in, with about 25 GB free. A mode can be added later, and a build that stops carries on where it stopped when you press Build again.\n\nNew and lightly tested: all three modes were built from a real disc and update and played with a virtual Xbox controller on one console. Joy-Cons, DLC maps, system link between consoles and playing docked were not tried.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.51/sccm-retro-update-2.42.51.tar.gz",
-  "sha256": "43ee851c3b2a3b43dabf0da61d5f771a4a3fe52cda9cbe498031149e80990077",
-  "size": 440074240,
-  "buildId": "20261103174532",
-  "publishedAt": "2026-11-03T17:51:01.552Z",
+  "version": "2.42.52",
+  "tag": "v2.42.52",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nXbox: a new Xbox tab plays original Xbox games with hakuX, from .iso (an XISO or a whole disc) or .chd files. It needs no BIOS and no hard disk image. Halo 2 runs at its full 30 frames a second. Each game has a Render resolution setting in Performance settings: 1x, the default, runs smoothest, and 2x is sharper. Xbox games have no save states.\n\nPlaying together: turn on System link (LAN) in a game's settings on every console to play its system link mode on your network, System Link in Halo 2 for example. Play Online in the game's menu does the same over the internet: one console hosts and gets a code, and the others join with it. Play Online turns system link on by itself. While system link is on, the pause menu leaves the game running, so the other players are not dropped.\n\nHidden games: the first game you hide on the web page sets a 4-digit PIN. Press both sticks in on the home screen and enter it to show hidden games; they hide again with the same press, at sleep or at a restart. Four wrong PINs lock it for six hours. A forgotten PIN can be replaced on the web page's Debug tab.\n\nWind Waker HD: a stick at rest no longer drifts. A game with no dead zone saved gets 10 percent, and one you set yourself is kept.\n\nUSB file transfer: a file that did not finish copying (the cable pulled, the copy cancelled or the drive full) is removed instead of being left cut off, and the console tells you which file to copy again.\n\nBrowse all files: when the SD card has turned read-only after an error, a delete or move says so and asks you to restart, in place of a bare error.\n\nNew and lightly tested: Xbox was tried with Halo 2 only. Two consoles played a System Link round on the same network and online, but no level was played through with a controller, and three or more players were not tried. The USB fix was not tried with a real cable pull.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.52/sccm-retro-update-2.42.52.tar.gz",
+  "sha256": "487ec48c5d155789640d477c8064f33ed6a9a35b70ec023203ac47e2817d0dcc",
+  "size": 443289600,
+  "buildId": "20261105035509",
+  "publishedAt": "2026-11-05T04:01:09.141Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.51/sccm-retro-update-2.42.51-full.tar.gz",
-    "sha256": "921af564ccfce2d6a7624fa9eb43840d58fa2ae4f74cb649a075d3789f96ee0c",
-    "size": 617267200
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.52/sccm-retro-update-2.42.52-full.tar.gz",
+    "sha256": "da92b370a1a59953c11552fb1a910240896d823a5f50534b495e94520d3d1099",
+    "size": 620462080
   },
   "stable": {
     "version": "2.42.0",
