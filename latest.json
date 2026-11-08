@@ -1,17 +1,17 @@
 {
-  "version": "2.42.53",
-  "tag": "v2.42.53",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nXbox: games run faster and the sound plays whole. RetroArch's own work for hakuX now runs ahead of other programs, and hakuX is updated with a fix that keeps its sound from breaking up: Halo 2's intro went from about 47 to 57 frames a second. A new Audio effects setting in a game's Performance settings picks Fast, the default, or Full DSP for the console's full sound effects.\n\nXbox imports: a game Horizon split into pieces is joined on the Linux side, and the pieces are removed from the SD card afterwards. .xiso files and Xbox .chd files are taken, and a game cut off at 4 GB is caught and named. Uploads from the web page send each piece again when the connection drops, and the page says when a phone has to stay awake.\n\nSly 2: Band of Thieves: a new tile on Ports and Apps. Add your own Sly 2 disc (USA) like any PS2 game, then press Build in Sly 2's section of the web page. The console builds the game itself in about 20 minutes, and its files are made from your disc. It runs at full game speed, about 50 frames a second on an OLED and about 40 on a launch model.\n\nBlack Ops II: a new build kit builds every mode with every DLC map pack, and a build that stops carries on where it stopped. The web page shows the build files with a button to remove them, why a build stopped, and how much space it needs, now about 18 GB. Build again makes the game again from your files as they are now, for example after adding DLC: what did not change is kept, so only the new DLC's shaders are built, and removing the build files no longer means building everything again.\n\nPC-98: a new PC-98 tab plays NEC PC-9801 games through NP2kai.\n\nPC games: touch buttons can have their outlines turned off and their size set, per game. Community layouts in a PC game's menu share your controller setup and let you use one other players shared, after a confirm, with a way back to your own.\n\nCovers: every cover on the home screen grid and shelf is now the same size.\n\nWii U online play: put your console's online files (otp.bin, seeprom.bin, the certificates and account.dat) in Files, BIOS or the inbox, and Cemu goes online through Pretendo by itself once they are all there.\n\nUpdates: Install now is held back while a build runs, so an update never restarts the console in the middle of one.\n\nSCCM Retro app: growing the SCCM Retro partition no longer stalls for hours on a card whose file system has many lost pieces.\n\nDebug reports now include a record of each sleep, the deep sleep settings, and the controller and Bluetooth lines that help with a pad that will not connect.\n\nNew and lightly tested: the Xbox changes were measured with Halo 2 only. Sly 2 was played with a test controller, not real Joy-Cons, and not docked. Black Ops II was not tried with DLC. Wii U online play was set up with stand-in files, not a real console's. The grow fix was tested on disk images, not a real card. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.53/sccm-retro-update-2.42.53.tar.gz",
-  "sha256": "4b5157422741fa9bdef8c4046afe0674ab1e03012e1fea0136d2134cfa02c854",
-  "size": 444436480,
-  "buildId": "20261107044401",
-  "publishedAt": "2026-11-07T04:48:04.216Z",
+  "version": "2.42.54",
+  "tag": "v2.42.54",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nUSB file transfer: a computer's USB-C port that supplies power, as most laptops have, now sees SCCM Retro as a drive. On those ports the console used to stay in charge of the cable after the computer said no, so the computer never saw it; a USB-A port with an A to C cable worked. Now the console gives way, as Horizon does.\n\nThis update carries a kernel: the console restarts once for the update and once more on its own about a minute after the first boot. Do not power off while it says part 2 of 2.\n\nThe kernel also fixes a timing bug that could make the system miss that a task had finished, behind controllers going unnoticed after days without a restart (worked around since September).\n\nNew and lightly tested: the new kernel was tried through an update, on a charger, in and out of the dock, and on one laptop's USB-C port. Reports welcome, especially from anyone whose computer could not see the console before.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.54/sccm-retro-update-2.42.54.tar.gz",
+  "sha256": "f18fd057de240f148b37df7abe8ba6c696c2cac631df7e416d326f503a4769b7",
+  "size": 444446720,
+  "buildId": "20261108173800",
+  "publishedAt": "2026-11-08T17:42:48.988Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.53/sccm-retro-update-2.42.53-full.tar.gz",
-    "sha256": "447ef5bc624fb26908942b227f7dbd0597af296e0a8588d40705187980750de7",
-    "size": 621629440
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.54/sccm-retro-update-2.42.54-full.tar.gz",
+    "sha256": "b05191cb6405ff2c727813f21c9ad1b25c49e0d341a9f5afc4307f629e3651c9",
+    "size": 621639680
   },
   "stable": {
     "version": "2.42.0",
