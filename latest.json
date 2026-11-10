@@ -1,17 +1,17 @@
 {
-  "version": "2.42.54",
-  "tag": "v2.42.54",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nUSB file transfer: a computer's USB-C port that supplies power, as most laptops have, now sees SCCM Retro as a drive. On those ports the console used to stay in charge of the cable after the computer said no, so the computer never saw it; a USB-A port with an A to C cable worked. Now the console gives way, as Horizon does.\n\nThis update carries a kernel: the console restarts once for the update and once more on its own about a minute after the first boot. Do not power off while it says part 2 of 2.\n\nThe kernel also fixes a timing bug that could make the system miss that a task had finished, behind controllers going unnoticed after days without a restart (worked around since September).\n\nNew and lightly tested: the new kernel was tried through an update, on a charger, in and out of the dock, and on one laptop's USB-C port. Reports welcome, especially from anyone whose computer could not see the console before.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.54/sccm-retro-update-2.42.54.tar.gz",
-  "sha256": "f18fd057de240f148b37df7abe8ba6c696c2cac631df7e416d326f503a4769b7",
-  "size": 444446720,
-  "buildId": "20261108173800",
-  "publishedAt": "2026-11-08T17:42:48.988Z",
+  "version": "2.42.55",
+  "tag": "v2.42.55",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNew games: Pokémon Colosseum, the PC port, built on this console. Add your own USA disc, press Build in its section on the web page (about 12 minutes on an OLED console) and it plays at 60 frames a second. Sly Cooper and the Thievius Raccoonus through SafeHouse, built the same way once your Sly Cooper disc is in the library (one and a half to two hours more on an original Switch). ProjectCane's Sly Cooper stays.\n\nXbox: a newer Xbox emulator, with fixes for games that stopped or closed on their own. System link over your network and Play Online keep working. When the emulator ends a game you return to SCCM Retro instead of RetroArch's menu, and the \"Hash Generation Failed\" message is gone. RetroArch's frame counter now shows the game's own rate, 30 in Halo 2; the game is not slower.\n\nFixes: Cemu no longer crashes at start once your otp.bin is added. x86_64 Linux programs start from the launcher. Handheld brightness is remembered across restarts. Remote Play's Login to PSN opens Sony's sign-in page instead of closing the app. A Bluetooth controller that drops during a game comes back in its own slot. The RAM tuner's \"Save this setting and restart\" works. Sly 2 finds your disc whatever its name or format. A PC game that crashes closes instead of freezing on screen, and the PC games report names where it crashed. An install that stopped at \"Writing the partition table failed\" carries on with the new SCCM Retro app.\n\nAlso: \"Set every button to Nothing\" in PC button mapping; Check for updates on the web page for Remote Play, YouTube, Stremio, Gen1Recomp and PokeMMO, and a Gen1Recomp you updated stays updated; encrypted 3DS games are turned away at import with the reason; the debug report keeps the Xbox emulator's own messages.\n\nNew and lightly tested: Colosseum and Sly Cooper were tried with USA discs and a virtual controller, not yet with real Joy-Cons or docked. Xbox was measured with Halo 2. The controller fix was tried with a simulated Pro Controller. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.55/sccm-retro-update-2.42.55.tar.gz",
+  "sha256": "dcc3a90725c9838a458d44bf46c4cd43bd9e07ccf5bf5867015a9f5c6c1a6ec8",
+  "size": 448225280,
+  "buildId": "20261110002321",
+  "publishedAt": "2026-11-10T00:29:24.635Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.54/sccm-retro-update-2.42.54-full.tar.gz",
-    "sha256": "b05191cb6405ff2c727813f21c9ad1b25c49e0d341a9f5afc4307f629e3651c9",
-    "size": 621639680
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.55/sccm-retro-update-2.42.55-full.tar.gz",
+    "sha256": "ff3f0edb0f473d5dcad39f9a02a25315d3f52ffde5398a2da0836bbf8d708abc",
+    "size": 625408000
   },
   "stable": {
     "version": "2.42.0",
