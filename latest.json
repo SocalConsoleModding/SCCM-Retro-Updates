@@ -1,17 +1,17 @@
 {
-  "version": "2.42.56",
-  "tag": "v2.42.56",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nN64 Play Online: Nintendo 64 games now have Host and Join in Play Online, over the internet or at home. Both players need the same ROM. Your own save is copied into the session, and afterwards the console asks whether to keep the session's save or your old one.\n\nN64: a newer emulator core. Its shader cache is now saved as you play, so a game that is closed the hard way no longer stutters through the same scenes again.\n\nIf the console turns off during a game: the next start tells you what it saw last, such as an empty battery, a battery that sagged under load, or heat. The same record goes in the debug report, and in the anonymous hardware report if you turned that on.\n\nBox art: games in the library show as 3D boxes, and the box on a game's page turns with L and R. The switch is in Settings, under Appearance.\n\nPlayStation Remote Play: sign in to PlayStation Network from your phone or PC, on the web page's Accounts tab, since Sony's page cannot be typed into on the console. The browser Remote Play opens now closes with it.\n\nNew and lightly tested: N64 Play Online ran between two consoles on one network with virtual controllers, not yet with real pads or two homes. The Remote Play sign-in was tried up to Sony's page, not with a real account. The power-off report has not yet caught a real power-off. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.56/sccm-retro-update-2.42.56.tar.gz",
-  "sha256": "4b5529970aa255f0ec5059db3c7f3f824d005ebb3ff5d3678a146530c87e97c1",
+  "version": "2.42.57",
+  "tag": "v2.42.57",
+  "notes": "This is an early build, released to consoles set to Latest Updates. A small one: better reports for tracking down problems.\n\nPC games report: when a PC game crashes, the report now keeps the whole crash, not only its last lines, so it shows where the game stopped.\n\nDiagnostic logs: they now record what the dock and the console said to each other, for docks that need a replug or take a while to show a picture. Repeated system lines that crowded out the useful ones are left out.\n\nLightly tested: the crash part was tried with a made-up crash, not a real game's. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.57/sccm-retro-update-2.42.57.tar.gz",
+  "sha256": "e2b845fe3a8f09bb90d66dc013817a451645d69c2c32905215fcb6f5f37d1945",
   "size": 452956160,
-  "buildId": "20261111034620",
-  "publishedAt": "2026-11-11T03:51:10.009Z",
+  "buildId": "20261111202847",
+  "publishedAt": "2026-11-11T20:34:48.691Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.56/sccm-retro-update-2.42.56-full.tar.gz",
-    "sha256": "866822c53fb918ad5278b611913567c9ad7761dea965e6d628853f26c628a1ca",
-    "size": 630138880
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.57/sccm-retro-update-2.42.57-full.tar.gz",
+    "sha256": "d1a246a7ce0254fa13769b19909d4cea468296c9cd04c6981fcf9b7363f37762",
+    "size": 630149120
   },
   "stable": {
     "version": "2.42.0",
