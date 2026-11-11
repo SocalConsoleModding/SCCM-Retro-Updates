@@ -1,17 +1,17 @@
 {
-  "version": "2.42.55",
-  "tag": "v2.42.55",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNew games: Pokémon Colosseum, the PC port, built on this console. Add your own USA disc, press Build in its section on the web page (about 12 minutes on an OLED console) and it plays at 60 frames a second. Sly Cooper and the Thievius Raccoonus through SafeHouse, built the same way once your Sly Cooper disc is in the library (one and a half to two hours more on an original Switch). ProjectCane's Sly Cooper stays.\n\nXbox: a newer Xbox emulator, with fixes for games that stopped or closed on their own. System link over your network and Play Online keep working. When the emulator ends a game you return to SCCM Retro instead of RetroArch's menu, and the \"Hash Generation Failed\" message is gone. RetroArch's frame counter now shows the game's own rate, 30 in Halo 2; the game is not slower.\n\nFixes: Cemu no longer crashes at start once your otp.bin is added. x86_64 Linux programs start from the launcher. Handheld brightness is remembered across restarts. Remote Play's Login to PSN opens Sony's sign-in page instead of closing the app. A Bluetooth controller that drops during a game comes back in its own slot. The RAM tuner's \"Save this setting and restart\" works. Sly 2 finds your disc whatever its name or format. A PC game that crashes closes instead of freezing on screen, and the PC games report names where it crashed. An install that stopped at \"Writing the partition table failed\" carries on with the new SCCM Retro app.\n\nAlso: \"Set every button to Nothing\" in PC button mapping; Check for updates on the web page for Remote Play, YouTube, Stremio, Gen1Recomp and PokeMMO, and a Gen1Recomp you updated stays updated; encrypted 3DS games are turned away at import with the reason; the debug report keeps the Xbox emulator's own messages.\n\nNew and lightly tested: Colosseum and Sly Cooper were tried with USA discs and a virtual controller, not yet with real Joy-Cons or docked. Xbox was measured with Halo 2. The controller fix was tried with a simulated Pro Controller. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.55/sccm-retro-update-2.42.55.tar.gz",
-  "sha256": "dcc3a90725c9838a458d44bf46c4cd43bd9e07ccf5bf5867015a9f5c6c1a6ec8",
-  "size": 448225280,
-  "buildId": "20261110002321",
-  "publishedAt": "2026-11-10T00:29:24.635Z",
+  "version": "2.42.56",
+  "tag": "v2.42.56",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nN64 Play Online: Nintendo 64 games now have Host and Join in Play Online, over the internet or at home. Both players need the same ROM. Your own save is copied into the session, and afterwards the console asks whether to keep the session's save or your old one.\n\nN64: a newer emulator core. Its shader cache is now saved as you play, so a game that is closed the hard way no longer stutters through the same scenes again.\n\nIf the console turns off during a game: the next start tells you what it saw last, such as an empty battery, a battery that sagged under load, or heat. The same record goes in the debug report, and in the anonymous hardware report if you turned that on.\n\nBox art: games in the library show as 3D boxes, and the box on a game's page turns with L and R. The switch is in Settings, under Appearance.\n\nPlayStation Remote Play: sign in to PlayStation Network from your phone or PC, on the web page's Accounts tab, since Sony's page cannot be typed into on the console. The browser Remote Play opens now closes with it.\n\nNew and lightly tested: N64 Play Online ran between two consoles on one network with virtual controllers, not yet with real pads or two homes. The Remote Play sign-in was tried up to Sony's page, not with a real account. The power-off report has not yet caught a real power-off. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.56/sccm-retro-update-2.42.56.tar.gz",
+  "sha256": "4b5529970aa255f0ec5059db3c7f3f824d005ebb3ff5d3678a146530c87e97c1",
+  "size": 452956160,
+  "buildId": "20261111034620",
+  "publishedAt": "2026-11-11T03:51:10.009Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.55/sccm-retro-update-2.42.55-full.tar.gz",
-    "sha256": "ff3f0edb0f473d5dcad39f9a02a25315d3f52ffde5398a2da0836bbf8d708abc",
-    "size": 625408000
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.56/sccm-retro-update-2.42.56-full.tar.gz",
+    "sha256": "866822c53fb918ad5278b611913567c9ad7761dea965e6d628853f26c628a1ca",
+    "size": 630138880
   },
   "stable": {
     "version": "2.42.0",
