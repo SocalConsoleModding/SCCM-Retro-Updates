@@ -1,17 +1,17 @@
 {
-  "version": "2.42.57",
-  "tag": "v2.42.57",
-  "notes": "This is an early build, released to consoles set to Latest Updates. A small one: better reports for tracking down problems.\n\nPC games report: when a PC game crashes, the report now keeps the whole crash, not only its last lines, so it shows where the game stopped.\n\nDiagnostic logs: they now record what the dock and the console said to each other, for docks that need a replug or take a while to show a picture. Repeated system lines that crowded out the useful ones are left out.\n\nLightly tested: the crash part was tried with a made-up crash, not a real game's. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.57/sccm-retro-update-2.42.57.tar.gz",
-  "sha256": "e2b845fe3a8f09bb90d66dc013817a451645d69c2c32905215fcb6f5f37d1945",
-  "size": 452956160,
-  "buildId": "20261111202847",
-  "publishedAt": "2026-11-11T20:34:48.691Z",
+  "version": "2.42.58",
+  "tag": "v2.42.58",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nGame boxes: the box on a game's page now turns slowly by itself. L and R stand it on its front or back, and the right stick turns it any way you like; a minute later it turns by itself again. Cartridge boxes show their spine on the top and bottom.\n\nBox sides and backs: sign in with a free ScreenScraper account on the web page's Accounts tab, and 3D boxes get their real spine and back as the console finds them.\n\nNintendo DS: cheats you turn on in a game's page now work with DraStic too, not only melonDS. A DS save you upload on the web page now reaches both DS emulators.\n\nPC games: old 32-bit games that crashed a few seconds after starting, with sound on, now run. Deus Ex Game of the Year is the one this was found on.\n\nLightly tested: Deus Ex was run to its logo with sound, not played. The DraStic cheats were seen loading, not checked in play. The right stick was tried with a simulated stick. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.58/sccm-retro-update-2.42.58.tar.gz",
+  "sha256": "a9bbf41f2787a21c03c9193a4b794c4838232e613324bda6f7d9add8c8430b34",
+  "size": 452966400,
+  "buildId": "20261112165906",
+  "publishedAt": "2026-11-12T17:03:44.579Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.57/sccm-retro-update-2.42.57-full.tar.gz",
-    "sha256": "d1a246a7ce0254fa13769b19909d4cea468296c9cd04c6981fcf9b7363f37762",
-    "size": 630149120
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.58/sccm-retro-update-2.42.58-full.tar.gz",
+    "sha256": "2e174be4bb51fc2a4b965a4ddc43ca05018b99b29b0d60b0061fb392c3d46ea2",
+    "size": 630159360
   },
   "stable": {
     "version": "2.42.0",
