@@ -1,16 +1,16 @@
 {
-  "version": "2.42.58",
-  "tag": "v2.42.58",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nGame boxes: the box on a game's page now turns slowly by itself. L and R stand it on its front or back, and the right stick turns it any way you like; a minute later it turns by itself again. Cartridge boxes show their spine on the top and bottom.\n\nBox sides and backs: sign in with a free ScreenScraper account on the web page's Accounts tab, and 3D boxes get their real spine and back as the console finds them.\n\nNintendo DS: cheats you turn on in a game's page now work with DraStic too, not only melonDS. A DS save you upload on the web page now reaches both DS emulators.\n\nPC games: old 32-bit games that crashed a few seconds after starting, with sound on, now run. Deus Ex Game of the Year is the one this was found on.\n\nLightly tested: Deus Ex was run to its logo with sound, not played. The DraStic cheats were seen loading, not checked in play. The right stick was tried with a simulated stick. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.58/sccm-retro-update-2.42.58.tar.gz",
-  "sha256": "a9bbf41f2787a21c03c9193a4b794c4838232e613324bda6f7d9add8c8430b34",
-  "size": 452966400,
-  "buildId": "20261112165906",
-  "publishedAt": "2026-11-12T17:03:44.579Z",
+  "version": "2.42.59",
+  "tag": "v2.42.59",
+  "notes": "This is an early build, released to consoles set to Latest Updates. One fix.\n\nPokemon Colosseum: Build stopped with \"the port's preparation stopped\" on every console, because the build needed a tool that consoles do not come with. The build now fetches it. Press Build again and it carries on where it stopped.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.59/sccm-retro-update-2.42.59.tar.gz",
+  "sha256": "4c039fd65daa42fa284abde18dde38d26a64503412444a7fed282a347e3f0f19",
+  "size": 452976640,
+  "buildId": "20261112172306",
+  "publishedAt": "2026-11-12T17:27:46.584Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.58/sccm-retro-update-2.42.58-full.tar.gz",
-    "sha256": "2e174be4bb51fc2a4b965a4ddc43ca05018b99b29b0d60b0061fb392c3d46ea2",
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.59/sccm-retro-update-2.42.59-full.tar.gz",
+    "sha256": "2251cfa66e218f6fa539e12f80adaf79df854dabffcb7cd524638315b7298559",
     "size": 630159360
   },
   "stable": {
