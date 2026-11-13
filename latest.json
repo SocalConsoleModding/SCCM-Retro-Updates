@@ -1,17 +1,17 @@
 {
-  "version": "2.42.59",
-  "tag": "v2.42.59",
-  "notes": "This is an early build, released to consoles set to Latest Updates. One fix.\n\nPokemon Colosseum: Build stopped with \"the port's preparation stopped\" on every console, because the build needed a tool that consoles do not come with. The build now fetches it. Press Build again and it carries on where it stopped.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.59/sccm-retro-update-2.42.59.tar.gz",
-  "sha256": "4c039fd65daa42fa284abde18dde38d26a64503412444a7fed282a347e3f0f19",
-  "size": 452976640,
-  "buildId": "20261112172306",
-  "publishedAt": "2026-11-12T17:27:46.584Z",
+  "version": "2.42.60",
+  "tag": "v2.42.60",
+  "notes": "This is an early build, released to consoles set to Latest Updates. It reorganizes the menus, so things have moved.\n\nHome screen: the IP address, clocks and temperatures are behind a System button in the header (you can pin each one back in Settings, Look and feel, Home screen header). There is a Recent tab with your last 12 games. Console tabs can be hidden and reordered in Settings, Library, Console tabs. L and R switch tabs. A game copied into a ROM folder now shows up within about half a minute, without a restart.\n\nGame page: the rows are in three groups. Cheats, patches and community packs are one row, Mods and cheats. A save state you picked shows on the Play row. Anything that deletes or overwrites asks for a second press.\n\nPause menu: Quick save, Save state and Load state are at the top. Quit, Reset and deletes start on Cancel.\n\nSettings: twelve sections. WiFi is under Network, updates and the date are under System, sleep and battery are under Power and sleep, and overclocking is last as Overclocking and tuning. Controllers has a Controls page that lists what every button does.\n\nWeb page: the tabs are Files, Graphics, PC Games, Ports, Accounts, Network, Console, Contributions and Support, and the page fits a phone. Updates and admin access are on Console; logs are on Support.\n\nBattery: Settings, Power and sleep has Battery limits, which keeps the CPU and GPU under clocks picked for your model while running from the battery. It is off unless you turn it on, on for new installs, and the console turns it on by itself after a power-off the battery could not carry. The high battery draw warning now averages over three minutes.\n\nNew installs start with a mild RAM speed and CPU undervolt for their model. Consoles already set up are not changed.\n\nSharing: the launcher asks once whether to share anonymous usage data (which games crash, which features get used). It is off until you say yes.\n\nNot yet tried on a TV, on the two clean themes, or with every emulator's pause menu. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.60/sccm-retro-update-2.42.60.tar.gz",
+  "sha256": "24c999e48c6b80a1eb945c9044134c7830ea0a563b5b11f42a65a4c730bb48be",
+  "size": 453007360,
+  "buildId": "20261113021526",
+  "publishedAt": "2026-11-13T02:20:04.000Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.59/sccm-retro-update-2.42.59-full.tar.gz",
-    "sha256": "2251cfa66e218f6fa539e12f80adaf79df854dabffcb7cd524638315b7298559",
-    "size": 630159360
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.60/sccm-retro-update-2.42.60-full.tar.gz",
+    "sha256": "b07709613c5aa808a117ac5423299ac4c87e3d1c8c9e51262e094b41e91e1544",
+    "size": 630169600
   },
   "stable": {
     "version": "2.42.0",
