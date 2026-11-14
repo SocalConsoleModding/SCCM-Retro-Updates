@@ -1,17 +1,17 @@
 {
-  "version": "2.42.60",
-  "tag": "v2.42.60",
-  "notes": "This is an early build, released to consoles set to Latest Updates. It reorganizes the menus, so things have moved.\n\nHome screen: the IP address, clocks and temperatures are behind a System button in the header (you can pin each one back in Settings, Look and feel, Home screen header). There is a Recent tab with your last 12 games. Console tabs can be hidden and reordered in Settings, Library, Console tabs. L and R switch tabs. A game copied into a ROM folder now shows up within about half a minute, without a restart.\n\nGame page: the rows are in three groups. Cheats, patches and community packs are one row, Mods and cheats. A save state you picked shows on the Play row. Anything that deletes or overwrites asks for a second press.\n\nPause menu: Quick save, Save state and Load state are at the top. Quit, Reset and deletes start on Cancel.\n\nSettings: twelve sections. WiFi is under Network, updates and the date are under System, sleep and battery are under Power and sleep, and overclocking is last as Overclocking and tuning. Controllers has a Controls page that lists what every button does.\n\nWeb page: the tabs are Files, Graphics, PC Games, Ports, Accounts, Network, Console, Contributions and Support, and the page fits a phone. Updates and admin access are on Console; logs are on Support.\n\nBattery: Settings, Power and sleep has Battery limits, which keeps the CPU and GPU under clocks picked for your model while running from the battery. It is off unless you turn it on, on for new installs, and the console turns it on by itself after a power-off the battery could not carry. The high battery draw warning now averages over three minutes.\n\nNew installs start with a mild RAM speed and CPU undervolt for their model. Consoles already set up are not changed.\n\nSharing: the launcher asks once whether to share anonymous usage data (which games crash, which features get used). It is off until you say yes.\n\nNot yet tried on a TV, on the two clean themes, or with every emulator's pause menu. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.60/sccm-retro-update-2.42.60.tar.gz",
-  "sha256": "24c999e48c6b80a1eb945c9044134c7830ea0a563b5b11f42a65a4c730bb48be",
+  "version": "2.42.61",
+  "tag": "v2.42.61",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNew systems: Master System and Sega CD tabs, both on Genesis Plus GX. Sega CD games go in as .chd, .cue and .bin, or .iso, and need the Sega CD BIOS for their region, uploaded on the web page under Files, BIOS. A game that is missing it names the file it needs.\n\nWii: a Wii game's page has Motion source. Tilt the console uses the Switch's own motion sensor for Wii Remote 1 in handheld, so the pointer works with the Joy-Cons on the rails. Wii pointer speed is now a slider from 70 to 150 percent. Settings, Controllers has Set dead zone by hand, and Calibrate control sticks now sees Bluetooth controllers.\n\nWii U: the web page's Saves tab takes your Wii U Mii file (FFL_ODB.dat, from Mii Maker's save) and puts it where Wii U games read it. network_services.xml goes in the Wii U online play box under Files, BIOS, and Custom is offered as a network.\n\nPorts: Sly, Pokemon Colosseum and Black Ops II each have an Uninstall button on the web page, and your saves stay. Pokemon Colosseum builds v0.4.0, with the Wish crash and the move sound echo fixed. Press Build the update in its section on the web page; your save carries over. New Game now asks whether to start with Espeon and Umbreon.\n\nFixes: \"Updated to\" shows once the update has fully finished. The web page's Replace files prompt no longer opens behind the file browser. A PC game whose program is missing from its folder says so. The diagnostic logs show what is using the Wii system memory, and their CPU clock and 3DS motion sections print again.\n\nNot yet tried with a real Master System or Sega CD game, with Miis inside a Wii U game, or with each tilt direction by hand. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.61/sccm-retro-update-2.42.61.tar.gz",
+  "sha256": "80dd4e1182432be084afb470b723633fb7009c7aad1f86e3b467e86d72a62dfc",
   "size": 453007360,
-  "buildId": "20261113021526",
-  "publishedAt": "2026-11-13T02:20:04.000Z",
+  "buildId": "20261114043506",
+  "publishedAt": "2026-11-14T04:40:29.369Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.60/sccm-retro-update-2.42.60-full.tar.gz",
-    "sha256": "b07709613c5aa808a117ac5423299ac4c87e3d1c8c9e51262e094b41e91e1544",
-    "size": 630169600
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.61/sccm-retro-update-2.42.61-full.tar.gz",
+    "sha256": "e5fb5060048cee01cba9532b81048e300b0127882542c3d87139098c14a6813d",
+    "size": 630190080
   },
   "stable": {
     "version": "2.42.0",
