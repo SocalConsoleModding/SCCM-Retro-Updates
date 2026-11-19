@@ -1,17 +1,17 @@
 {
-  "version": "2.42.62",
-  "tag": "v2.42.62",
-  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nNew systems: Master System and Sega CD tabs, both on Genesis Plus GX. Sega CD games go in as .chd, .cue and .bin, or .iso, and need the Sega CD BIOS for their region, uploaded on the web page under Files, BIOS. A game that is missing it names the file it needs.\n\nPokemon: Pokemon XD: Gale of Darkness is a tile of its own, built on the console from your own disc, as Pokemon Colosseum is. Colosseum builds version 0.5.0, and both games have new options on their game page, under Performance settings: Gen 4 battle rules (XD makes them from your Colosseum disc), a randomizer with an optional seed, texture packs and a Game Boy Advance save for trades, the last two added through the game's Files window on the web page. Press Build the update for Colosseum; your save carries over.\n\nDS: melonDS DS is a new engine for DS games, picked per game under Performance settings, Engine. It has RetroAchievements and save states, with touch, the lid and screen swap from the pause menu. melonDS also has its own screen layout per game, hybrid included.\n\nPokeDaisy: a new engine for Pokemon games on Game Boy, Game Boy Color, Game Boy Advance and DS, picked per game. It shows a live companion with your party, the Pokedex, a map and a guide. It downloads from the PokeDaisy project the first time a game starts with it; without the internet the game starts on its usual engine. Your in-game save moves across; save states do not. Based on PokeDaisy by Lidor Itzhari - https://github.com/lidor30/pokedaisy\n\nPorts: a port built on the console has a Build row on its game page, with its progress, so no web page is needed. Sly, Pokemon Colosseum and Black Ops II have an Uninstall button on the web page, and your saves stay.\n\nPC games: a single .exe can be added as the game itself; the web page asks whether it is the game or its installer.\n\nLook and feel: Settings opens on its sections as tiles. Each game's page shows its console's logo over the box, and Settings, Look and feel can theme the header and tabs in the selected console's logo and colors. Search has one row for the sort, the console and a random game, which spins a reel of covers.\n\nWii and Wii U: a Wii game's page has Motion source; Tilt the console uses the Switch's own motion sensor for Wii Remote 1 in handheld. Wii pointer speed is a slider from 70 to 150 percent, a Wii game's Rumble and pointer rows are under Controller options, and the hotkeys can shake the Wii Remote and recenter the pointer. Settings, Controllers has Set dead zone by hand. The web page's Saves tab takes your Wii U Mii file, and a Wii U game's page can download its shader cache.\n\nFixes: \"Updated to\" shows once the update has fully finished. The web page's Replace files prompt no longer opens behind the file browser. A PC game whose program is missing from its folder says so.\n\nNot yet tried: a real Master System or Sega CD game, Pokemon XD past its title, Colosseum's options in a battle or a new game, an achievement unlocked on melonDS DS, the Wii hotkeys in a game, and docked play for most of the above. Reports welcome.",
-  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.62/sccm-retro-update-2.42.62.tar.gz",
-  "sha256": "b29e9b9284c3fc75361b15d57c6af06a8337fad938f40402f2312782c7e8de4d",
-  "size": 455055360,
-  "buildId": "20261118061325",
-  "publishedAt": "2026-11-18T06:18:58.326Z",
+  "version": "2.42.63",
+  "tag": "v2.42.63",
+  "notes": "This is an early build, released to consoles set to Latest Updates.\n\nLook and feel: a new SCCM Retro title in the header. The console logos are redrawn from the real logos, bigger and cleaner, without trademark marks, and the Genesis tab shows both the Genesis and the Mega Drive logos. With System themed tabs, every console's name in the header stands at the same height, and the underline is gone. Tab colors now match each console's logo, and Ports and Apps is purple.\n\nConsole colors: switching tabs blends the background into the next console's colors in half a second, starting as you press. It used to wait almost a second and then switch at once.\n\nNot yet tried: the TV sizes, and the Clean Light theme on a console. Reports welcome.",
+  "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.63/sccm-retro-update-2.42.63.tar.gz",
+  "sha256": "2d4e728b61a9e548a0571f35cf0d2f1c4921382b33e0da2b61b6cc42dae9541e",
+  "size": 455178240,
+  "buildId": "20261119033120",
+  "publishedAt": "2026-11-19T03:35:42.098Z",
   "deps": "c5d502a222ab3effed73a098cc57b080c7cb927a9dc18421bfb25354e1d5a5bc",
   "full": {
-    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.62/sccm-retro-update-2.42.62-full.tar.gz",
-    "sha256": "b4ec4d5f62c95b5a5a5573b26e3941520f9541a85d7ccf54e391650e0868f215",
-    "size": 632248320
+    "url": "https://github.com/SocalConsoleModding/SCCM-Retro-Updates/releases/download/v2.42.63/sccm-retro-update-2.42.63-full.tar.gz",
+    "sha256": "0a79739ee7f624a56ecd608737c46580314968666957bfce0ffbd9a6e8988809",
+    "size": 632350720
   },
   "stable": {
     "version": "2.42.0",
